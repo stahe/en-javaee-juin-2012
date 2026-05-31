@@ -18,7 +18,7 @@
         <link rel="prev" href="layered-architecture-of-a-java-application.html">
       
       
-        <link rel="next" href="jpa--an-overview.html">
+        <link rel="next" href="jpa--a-summary.html">
       
       
         
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -503,14 +505,14 @@
   
   
     <li class="md-nav__item">
-      <a href="jpa--an-overview.html" class="md-nav__link">
+      <a href="jpa--a-summary.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. JPA : An Overview
+    4. JPA : A Summary
   
 
     
@@ -530,14 +532,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-1-spring--jpa-architecture.html" class="md-nav__link">
+      <a href="version-1-spring-architecture--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Version 1: Spring / JPA Architecture
+    5. Version 1: Spring Architecture / JPA
   
 
     
@@ -557,14 +559,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-2-openejb--jpa-architecture.html" class="md-nav__link">
+      <a href="version-2-architecture-openejb--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Version 2: OpenEJB / JPA Architecture
+    6. Version 2: Architecture OpenEJB / JPA
   
 
     
@@ -591,7 +593,7 @@
   <span class="md-ellipsis">
     
   
-    7. Version 3: Porting the PAM application to a GlassFish application server
+    7. Version 3: Porting the PAM application to a Glassfish application server
   
 
     
@@ -618,7 +620,7 @@
   <span class="md-ellipsis">
     
   
-    8. Version 4 – Client/Server in a Web Service Architecture
+    8. Version 4 – client/server in a web service architecture
   
 
     
@@ -665,14 +667,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-5---pam-web--jsf-application.html" class="md-nav__link">
+      <a href="version-5---pam-web-application--jsf.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. Version 5 - PAM Web / JSF Application
+    10. Version 5 - PAM Web Application / JSF
   
 
     
@@ -692,14 +694,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture.html" class="md-nav__link">
+      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-architecture-jsf--ejb.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture
+    11. Version 6 - Integration of the web layer into a 3-tier architecture JSF / EJB
   
 
     
@@ -719,14 +721,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-7---multi-viewmulti-page-pam-web-application.html" class="md-nav__link">
+      <a href="version-7---pam-multi-view--multi-page-web-application.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. Version 7 - Multi-view/multi-page PAM web application
+    12. Version 7 - PAM multi-view / multi-page web application
   
 
     
@@ -746,14 +748,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-8-porting-the-application-to-a-spring--tomcat-environment.html" class="md-nav__link">
+      <a href="version-8-porting-the-application-to-a-springtomcat-environment.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. Version 8: Porting the application to a Spring / Tomcat environment
+    13. Version 8: Porting the application to a Spring/Tomcat environment
   
 
     
@@ -780,7 +782,7 @@
   <span class="md-ellipsis">
     
   
-    14. Version 9: Implementing the web layer with PrimeFaces
+    14. Version 9: Implementing the Web Layer with Primefaces
   
 
     
@@ -810,23 +812,23 @@
 
 
 
-<p><a id="refheading2816851991350288"></a></p>
+<p><span id="refheading2816851991350288" name="refheading2816851991350288" class="odt-bookmark-anchor"></span></p>
 <h1 id="3-tools-used-in-this-document">3. <span style="color: #365f91">Tools Used in This Document</span></h1>
 <p>The examples in this document have been tested with the following tools:</p>
 <ul>
-  <li>NetBeans versions 6.8 through 7.1.2. The installation of NetBeans is described in [<b>ref3</b>] in section 1.3.1.
+  <li>Netbeans from version 6.8 to version 7.1.2. The installation of Netbeans is described in [ref3] in section 1.3.1.
   </li>
-  <li>WampServer version 2.2. The installation of WampServer is described in [<b>ref3</b>] in section 1.3.3;
+  <li>Wampserver version 2.2. The installation of WampServer is described in [ref3] in section 1.3.3;
   </li>
-  <li>Maven is integrated into NetBeans. We will now describe this tool.
+  <li>Maven is integrated into Netbeans. We will now describe this tool.
   </li>
 </ul>
 
-<p><a id="refheading2816871991350288"></a></p>
+<p><span id="refheading2816871991350288" name="refheading2816871991350288" class="odt-bookmark-anchor"></span></p>
 <h2 id="31-maven">3.1. <span style="color: #4f81bd">Maven</span></h2>
-<p><a id="refheading2816891991350288"></a></p>
+<p><span id="refheading2816891991350288" name="refheading2816891991350288" class="odt-bookmark-anchor"></span></p>
 <h3 id="311-introduction">3.1.1. <span style="color: #4f81bd">Introduction</span></h3>
-<p>Maven is available at the URL [http://maven.apache.org/index.html ]. According to its creators:</p>
+<p>Maven is available at URL [http://maven.apache.org/index.html ]. According to its creators:</p>
 <p><em>Maven’s primary goal is to allow a developer to understand the complete state of a development effort in the shortest possible time. To achieve this goal, there are several key areas that Maven addresses:</em></p>
 <ul>
   <li>Making the build process easy
@@ -841,23 +843,23 @@
   </li>
 </ul>
 
-<p>Maven is integrated into NetBeans, and we will use it for just one of its features: managing a project’s libraries. These consist of all the <em>JAR</em> files that must be in the project’s <em>classpath</em>. There can be a large number of them. For example, our future projects will use the Hibernate ORM (Object-Relational Mapper). This ORM consists of dozens of <em>JAR</em> files. The advantage of Maven is that it frees us from having to know them all. We simply need to specify in our project that we need Hibernate by providing all the necessary information to locate the main JAR file for this ORM. Maven then also downloads all the libraries required by Hibernate. These are called Hibernate’s dependencies. A library required by Hibernate may itself depend on other archives. These will also be downloaded. All these libraries are placed in a folder called the local Maven repository.</p>
+<p>Maven is integrated into Netbeans, and we will use it for just one of its features: managing a project’s libraries. These consist of all the <em>JAR</em> files that must be included in the project’s <em>classpath</em>. There can be a large number of them. For example, our future projects will use the Hibernate ORM (Object Relational Mapper). This Hibernate ORM consists of dozens of <em>JAR</em> files. The advantage of Maven is that it frees us from having to know them all. We simply need to specify in our project that we need Hibernate by providing all the necessary information to locate the main archive for this ORM. Maven then also downloads all the libraries required by Hibernate. These are called Hibernate dependencies. A library required by Hibernate may itself depend on other archives. These will also be downloaded. All these libraries are placed in a folder called the Maven local repository.</p>
 <p>A Maven project is easily shareable. If you transfer it from one computer to another and the project’s dependencies are not present in the new computer’s local repository, they will be downloaded.</p>
-<p>Maven can be used on its own or integrated into an IDE (Integrated Development Environment) such as NetBeans or Eclipse.</p>
-<p><a id="refheading99631454977699"></a>Let’s create a Maven project in NetBeans:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000006BA000001C16218D84F.png" width="680" height="177" style="display:inline-block; margin:4px;width:17.999cm;height:4.694cm;" class="odt-zoomable" data-zoom-src="images/10000000000006BA000001C16218D84F.png" /></td></tr></table>
+<p>Maven can be used on its own or integrated into an IDE (Integrated Development Environment) such as EDI or Eclipse.</p>
+<p><span id="refheading99631454977699" name="refheading99631454977699" class="odt-bookmark-anchor"></span>Let’s create a Maven project in Netbeans:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000006BA000001C16218D84F.png" width="680" height="177" style="display:inline-block; margin:4px;width:17.999cm;height:4.694cm;" class="odt-zoomable" data-zoom-src="images/10000000000006BA000001C16218D84F.png" /></td></tr></table>
 
 <ul>
   <li>In [1], create a new project,
   </li>
-  <li>in [2], select the [Maven] category and the [Java Application] project type,
+  <li>in [2], select the category [Maven] and the project type [Java Application],
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000007A300000285390C8C74.png" width="680" height="224" style="display:inline-block; margin:4px;width:17.999cm;height:5.937cm;" class="odt-zoomable" data-zoom-src="images/10000000000007A300000285390C8C74.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000007A300000285390C8C74.png" width="680" height="224" style="display:inline-block; margin:4px;width:17.999cm;height:5.937cm;" class="odt-zoomable" data-zoom-src="images/10000000000007A300000285390C8C74.png" /></td></tr></table>
 
 <ul>
-  <li>in [3], specify the parent directory for the new project,
+  <li>in [3], specify the parent folder for the new project,
   </li>
   <li>in [4], name the project,
   </li>
@@ -865,36 +867,36 @@
   </li>
 </ul>
 
-<p>Let’s examine the project’s components and explain the role of each one.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001CA00000180F878D1CB.png" width="229" height="192" style="display:inline-block; margin:4px;width:6.059cm;height:5.08cm;" class="odt-zoomable" data-zoom-src="images/10000000000001CA00000180F878D1CB.png" /></td></tr></table>
+<p>Let’s examine the project components and explain the role of each.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001CA00000180F878D1CB.png" width="229" height="192" style="display:inline-block; margin:4px;width:6.059cm;height:5.08cm;" class="odt-zoomable" data-zoom-src="images/10000000000001CA00000180F878D1CB.png" /></td></tr></table>
 
 <ul>
   <li>in [1]: the different branches of the project:
     <ul>
       <li>[Source packages]: the project’s Java classes;
       </li>
-      <li>[Test packages]: the project&#x27;s test classes;
+      <li>[Test packages]: the project’s test classes;
       </li>
       <li>[Dependencies]: the .jar archives required by the project and managed by Maven;
       </li>
-      <li>[Test Dependencies]: the .jar files required for the project’s tests and managed by Maven;
+      <li>[Test Dependencies]: the .jar archives required for project testing and managed by Maven;
       </li>
-      <li>[Java Dependencies]: the .jar files required by the project and not managed by Maven;
+      <li>[Java Dependencies]: the .jar archives required for the project and not managed by Maven;
       </li>
-      <li>[Project Files]: Maven and NetBeans configuration files,
+      <li>[Project Files]: Maven configuration files and Netbeans,
       </li>
     </ul>
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002010000012997DAE6A6.png" width="257" height="148" style="display:inline-block; margin:4px;width:6.787cm;height:3.928cm;" class="odt-zoomable" data-zoom-src="images/10000000000002010000012997DAE6A6.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002010000012997DAE6A6.png" width="257" height="148" style="display:inline-block; margin:4px;width:6.787cm;height:3.928cm;" class="odt-zoomable" data-zoom-src="images/10000000000002010000012997DAE6A6.png" /></td></tr></table>
 
 <ul>
   <li>in [3], the [Source Packages] branch,
   </li>
 </ul>
 
-<p>This branch contains the source code for the project&#x27;s Java classes. NetBeans has generated a default class:</p>
+<p>This branch contains the source code for the project&#x27;s Java classes. Netbeans generated a default class:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> istia.st.mvexemple;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -909,16 +911,16 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000023B000001DA33128D4F.png" width="286" height="237" style="display:inline-block; margin:4px;width:7.555cm;height:6.272cm;" class="odt-zoomable" data-zoom-src="images/100000000000023B000001DA33128D4F.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000023B000001DA33128D4F.png" width="286" height="237" style="display:inline-block; margin:4px;width:7.555cm;height:6.272cm;" class="odt-zoomable" data-zoom-src="images/100000000000023B000001DA33128D4F.png" /></td></tr></table>
 
 <ul>
-  <li>in [4], the [Test Packages] branch, which contains the source code for the project&#x27;s test classes,
+  <li>in [4], the [Test Packages] branch containing the source code for the project&#x27;s test classes,
   </li>
   <li>in [5], the JUnit 3.8 library required to run the tests,
   </li>
 </ul>
 
-<p>NetBeans has generated a default class:</p>
+<p>Netbeans generated a default class:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> istia.st.mvexemple;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -956,26 +958,26 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>This is a JUnit 3.8 test. We will use JUnit 4.x tests later on.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001BB00000187E9483491.png" width="222" height="196" style="display:inline-block; margin:4px;width:5.861cm;height:5.173cm;" class="odt-zoomable" data-zoom-src="images/10000000000001BB00000187E9483491.png" /></td></tr></table>
+<p>This is a JUnit 3.8 test. We will subsequently use JUnit 4.x tests.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001BB00000187E9483491.png" width="222" height="196" style="display:inline-block; margin:4px;width:5.861cm;height:5.173cm;" class="odt-zoomable" data-zoom-src="images/10000000000001BB00000187E9483491.png" /></td></tr></table>
 
 <ul>
-  <li>In [6], the [Dependencies] section is empty here,
+  <li>In [6], the [Dependencies] branch is empty here,
   </li>
 </ul>
 
-<p>This section displays all the libraries required by the project and managed by Maven. All libraries listed here are automatically downloaded by Maven. This is why a Maven project requires Internet access. The downloaded libraries will be stored locally. If another project needs a library that is already present locally, it will not be downloaded. We will see that this list of libraries, as well as the repositories where they can be found, are defined in the Maven project configuration file.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001D9000001875A238B9C.png" width="237" height="196" style="display:inline-block; margin:4px;width:6.258cm;height:5.173cm;" class="odt-zoomable" data-zoom-src="images/10000000000001D9000001875A238B9C.png" /></td></tr></table>
+<p>This branch displays all the libraries required for the project and managed by Maven. All libraries listed here are automatically downloaded by Maven. This is why a Maven project requires Internet access. The downloaded libraries will be stored locally. If another project needs a library already present locally, it will not be downloaded. We will see that this list of libraries, as well as the repositories where they can be found, are defined in the Maven project configuration file.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001D9000001875A238B9C.png" width="237" height="196" style="display:inline-block; margin:4px;width:6.258cm;height:5.173cm;" class="odt-zoomable" data-zoom-src="images/10000000000001D9000001875A238B9C.png" /></td></tr></table>
 
 <ul>
-  <li>In [7], the libraries required by the project but not managed by Maven,
+  <li>In [7], the libraries required for the project and not managed by Maven,
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000022100000199FA529CF0.png" width="273" height="205" style="display:inline-block; margin:4px;width:7.211cm;height:5.412cm;" class="odt-zoomable" data-zoom-src="images/100000000000022100000199FA529CF0.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000022100000199FA529CF0.png" width="273" height="205" style="display:inline-block; margin:4px;width:7.211cm;height:5.412cm;" class="odt-zoomable" data-zoom-src="images/100000000000022100000199FA529CF0.png" /></td></tr></table>
 
 <ul>
-  <li>in [7], the [pom.xml] configuration file for the Maven project. POM stands for Project Object Model. We will need to edit this file directly.
+  <li>in [7], the [pom.xml] Maven project configuration file. POM stands for Project Object Model. We will need to edit this file directly.
   </li>
 </ul>
 
@@ -991,7 +993,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span><span style="color:#000000">jar</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span><span style="color:#000000">mv-exemple</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span><span style="color:#000000">http://maven.apache.org</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  &lt;url&gt;http://maven.apache.org&lt;/url&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span><span style="color:#000000">UTF-8</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span></span></span>
@@ -1013,28 +1015,28 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000035800000224D7ECA1C9.png" width="428" height="274" style="display:inline-block; margin:4px;width:11.324cm;height:7.25cm;" class="odt-zoomable" data-zoom-src="images/100000000000035800000224D7ECA1C9.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000035800000224D7ECA1C9.png" width="428" height="274" style="display:inline-block; margin:4px;width:11.324cm;height:7.25cm;" class="odt-zoomable" data-zoom-src="images/100000000000035800000224D7ECA1C9.png" /></td></tr></table>
 
 <p>A Maven artifact is defined by four properties:</p>
 <ul>
-  <li>[<b>groupId</b>]: information that resembles a package name. For example, the Spring framework libraries have <i>groupId=org.springframework</i>, while those of the JSF framework have <i>groupId=javax.faces,</i>
+  <li>[groupId]: information that resembles a package name. Thus, the Spring framework libraries have <i>groupId=org.springframework</i>, those of the JSF framework have <i>groupId=javax.faces,</i>
   </li>
-  <li>[<b>artifactId</b>]: the name of the Maven artifact. In the [org.springframework] group, we find the following artifactIDs: <i>spring-context</i>, <i>spring-core</i>, <i>spring-beans</i>, ... In the [javax.faces] group, we find the artifactId <i>jsf-api,</i>
+  <li>[artifactId]: the name of the Maven object. In the [org.springframework] group, we thus find the following artifactId objects: <i>spring-context</i>, <i>spring-core</i>, <i>spring-beans</i>, ... In the [javax.faces] group, we find the artifactId <i>jsf-api,</i>
   </li>
-  <li>[<b>version</b>]: the version number of the Maven artifact. Thus, the artifact <i>org.springframework.spring-core </i>has the following versions: 2.5.4, 2.5.5, 2.5.6, 2.5.6.SECO1, ...
+  <li>[version]: the version number of the Maven artifact. Thus, the artifact <i>org.springframework.spring-core </i>has the following versions: 2.5.4, 2.5.5, 2.5.6, 2.5.6.SECO1, ...
   </li>
-  <li>[<b>packaging</b>]: the format of the artifact, most commonly <i>war </i>or <i>jar</i>.
+  <li>[packaging]: the format of the artifact, most often <i>war </i>or <i>jar</i>.
   </li>
 </ul>
 
-<p>Our Maven project will generate a [jar] (line 8) in the [istia.st] group (line 5), named [mv-example] (line 6) and with version [1.0-SNAPSHOT] (line 7). These four pieces of information must uniquely identify a Maven artifact.</p>
-<p>Lines 17–24 list the Maven project’s dependencies, i.e., the list of libraries required by the project. Each library is defined by the four pieces of information (groupId, artifactId, version, packaging). When the <em>packaging</em> information is missing, as here, the <strong>jar</strong> <em>packaging</em> is used. Another piece of information is added: <strong>scope</strong>, which specifies at which stages of the project’s lifecycle the library is needed. The default value is <strong><code>compile</code></strong>, which indicates that the library is required for compilation and execution. The value <strong><code>test</code></strong> means that the library is required during project testing. This is the case here with the JUnit 3.8.1 library. If this library is not present in the local repository on the machine, it is downloaded.</p>
-<p><a id="refheading1433261675182081"></a></p>
+<p>Our Maven project will generate a [jar] (line 8) in the [istia.st] (line 5), named [mv-exemple] (line 6), and version [1.0-SNAPSHOT] (line 7). These four pieces of information must uniquely identify a Maven artifact.</p>
+<p>Lines 17–24 list the Maven project’s dependencies, i.e., the list of libraries required by the project. Each library is defined by the four pieces of information (groupId, artifactId, version, packaging). When the <em>packaging</em> information is missing, as it is here, the <strong>jar</strong> <em>packaging</em> is used. Another piece of information is added: <strong>scope</strong>, which determines at which stages of the project’s lifecycle the library is needed. The default value is <strong>compile</strong>, indicating that the library is required for both compilation and execution. The value <strong>&quot;test&quot;</strong> means that the library is required during project testing. This is the case here with the JUnit 3.8.1 library. If this library is not present in the local repository on the workstation, it is downloaded.</p>
+<p><span id="refheading1433261675182081" name="refheading1433261675182081" class="odt-bookmark-anchor"></span></p>
 <h3 id="312-running-the-project">3.1.2. <span style="color: #4f81bd">Running the project</span></h3>
 <p>We run the project:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000006250000026DEC9E345D.png" width="680" height="269" style="display:inline-block; margin:4px;width:17.999cm;height:7.107cm;" class="odt-zoomable" data-zoom-src="images/10000000000006250000026DEC9E345D.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000006250000026DEC9E345D.png" width="680" height="269" style="display:inline-block; margin:4px;width:17.999cm;height:7.107cm;" class="odt-zoomable" data-zoom-src="images/10000000000006250000026DEC9E345D.png" /></td></tr></table>
 
-<p>In [1], the Maven project is built and then executed [1]. The logs in the NetBeans console are as follows:</p>
+<p>In [1], the Maven project is built and then executed in [1]. The logs in the Netbeans console are as follows:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
@@ -1093,31 +1095,31 @@
 <a id="__codelineno-0-28" name="__codelineno-0-28"></a>Finished at: Thu Jun 21 10:10:40 CEST 2012
 <a id="__codelineno-0-29" name="__codelineno-0-29"></a>Final Memory: 13M/122M
 </code></pre></div></td></tr></table></div>
-<p>The result is line 23. We can see that even for this simple case, Maven downloaded some dependencies (lines 17 and 20).</p>
-<p><a id="refheading1433281675182081"></a></p>
+<p>The result is on line 23. We can see that even for this simple case, Maven downloaded some dependencies (lines 17 and 20).</p>
+<p><span id="refheading1433281675182081" name="refheading1433281675182081" class="odt-bookmark-anchor"></span></p>
 <h3 id="313-the-file-system-of-a-maven-project">3.1.3. <span style="color: #4f81bd">The file system of a Maven project</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000754000002E748365BA1.png" width="680" height="269" style="display:inline-block; margin:4px;width:17.999cm;height:7.13cm;" class="odt-zoomable" data-zoom-src="images/1000000000000754000002E748365BA1.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000754000002E748365BA1.png" width="680" height="269" style="display:inline-block; margin:4px;width:17.999cm;height:7.13cm;" class="odt-zoomable" data-zoom-src="images/1000000000000754000002E748365BA1.png" /></td></tr></table>
 
 <ul>
-  <li>[1]: The project’s file system is in the [Files] tab,
+  <li>[1]: the project’s file system is in the [Files] tab,
   </li>
-  <li>[2]: the Java sources are in the [src/main/java] folder,
+  <li>[2]: the Java sources are in the [src / main / java] folder,
   </li>
-  <li>[3]: the Java test sources are in the [src/test/java] folder,
+  <li>[3]: the Java test sources are in the [src / test / java] folder,
   </li>
   <li>[4]: the [target] folder is created by the project build,
   </li>
-  <li>[5]: Here, the project build has created an archive [mv-example-1.0-SNAPSHOT.jar].
+  <li>[5]: here, the project build created an archive named [mv-exemple-1.0-SNAPSHOT.jar].
   </li>
 </ul>
 
-<p><a id="refheading1433341675182081"></a></p>
+<p><span id="refheading1433341675182081" name="refheading1433341675182081" class="odt-bookmark-anchor"></span></p>
 <h3 id="314-the-local-maven-repository">3.1.4. <span style="color: #4f81bd">The Local Maven Repository</span></h3>
 <p>We mentioned that Maven downloads the dependencies required for the project and stores them locally. You can explore this local repository:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000007A70000043F4F3E10B8.png" width="680" height="377" style="display:inline-block; margin:4px;width:17.999cm;height:9.987cm;" class="odt-zoomable" data-zoom-src="images/10000000000007A70000043F4F3E10B8.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000007A70000043F4F3E10B8.png" width="680" height="377" style="display:inline-block; margin:4px;width:17.999cm;height:9.987cm;" class="odt-zoomable" data-zoom-src="images/10000000000007A70000043F4F3E10B8.png" /></td></tr></table>
 
 <ul>
-  <li>in [1], select the [Window / Other / Maven Repository Browser] option,
+  <li>in [1], select option [Window / Other / Maven Repository Browser],
   </li>
   <li>in [2], a [Maven Repositories] tab opens,
   </li>
@@ -1125,20 +1127,20 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000815000002BA0D37DF31.png" width="680" height="229" style="display:inline-block; margin:4px;width:17.999cm;height:6.071cm;" class="odt-zoomable" data-zoom-src="images/1000000000000815000002BA0D37DF31.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000815000002BA0D37DF31.png" width="680" height="229" style="display:inline-block; margin:4px;width:17.999cm;height:6.071cm;" class="odt-zoomable" data-zoom-src="images/1000000000000815000002BA0D37DF31.png" /></td></tr></table>
 
 <ul>
-  <li>In [5], the libraries in the local repository,
+  <li>In [5], the libraries from the local repository,
   </li>
-  <li>in [6], you will find a branch [istia.st] that corresponds to our project’s [groupId],
+  <li>in [6], there is a branch [istia.st] that corresponds to [groupId] in our project,
   </li>
   <li>in [7], you can access the local repository properties,
   </li>
-  <li>in [8], you see the path to the local repository. It’s useful to know this because sometimes (rarely) Maven no longer uses the latest version of the project. You make changes and notice they aren’t being applied. You can then manually delete the branch in the local repository corresponding to your [groupId]. This forces Maven to recreate the branch from the latest version of the project.
+  <li>In [8], we have the path to the local repository. It is useful to know this because sometimes (rarely) Maven no longer uses the latest version of the project. We make changes and notice that they aren’t being applied. We can then manually delete the local repository branch corresponding to our [groupId]. This forces Maven to recreate the branch from the project’s latest version.
   </li>
 </ul>
 
-<p><a id="refheading1433361675182081"></a></p>
+<p><span id="refheading1433361675182081" name="refheading1433361675182081" class="odt-bookmark-anchor"></span></p>
 <h3 id="315-searching-for-an-artifact-with-maven">3.1.5. <span style="color: #4f81bd">Searching for an artifact with Maven</span></h3>
 <p>Now let’s learn how to search for an artifact with Maven. Let’s start with the list of current dependencies in the [pom.xml] file:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
@@ -1152,7 +1154,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span><span style="color:#000000">jar</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span><span style="color:#000000">mv-exemple</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span><span style="color:#000000">http://maven.apache.org</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  &lt;url&gt;http://maven.apache.org&lt;/url&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span><span style="color:#000000">UTF-8</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span></span></span>
@@ -1169,10 +1171,10 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>Lines 17–23 define dependencies that we will modify to use the latest versions of the libraries.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002860000020878CB0B77.png" width="323" height="260" style="display:inline-block; margin:4px;width:8.546cm;height:6.879cm;" class="odt-zoomable" data-zoom-src="images/10000000000002860000020878CB0B77.png" /></td></tr></table>
+<p>Lines 17–23 define dependencies that we will modify to use the libraries in their latest version, version.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002860000020878CB0B77.png" width="323" height="260" style="display:inline-block; margin:4px;width:8.546cm;height:6.879cm;" class="odt-zoomable" data-zoom-src="images/10000000000002860000020878CB0B77.png" /></td></tr></table>
 
-<p>First, we remove the current dependencies [1]. The [pom.xml] file is then modified:</p>
+<p>First, we remove the current [1] dependencies. The [pom.xml] file is then modified:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0&quot;</span> <span style="color:#7f007f">xmlns:xsi</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#7f007f">xsi:schemaLocation</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -1184,7 +1186,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span><span style="color:#000000">jar</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span><span style="color:#000000">mv-exemple</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span><span style="color:#000000">http://maven.apache.org</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  &lt;url&gt;http://maven.apache.org&lt;/url&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span><span style="color:#000000">UTF-8</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span></span></span>
@@ -1194,25 +1196,25 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>Line 17: The removed dependency no longer appears in [pom.xml]. Now, let&#x27;s search for it in the Maven repositories.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000082E000001D4BB7B95DB.png" width="680" height="152" style="display:inline-block; margin:4px;width:17.999cm;height:4.023cm;" class="odt-zoomable" data-zoom-src="images/100000000000082E000001D4BB7B95DB.png" /></td></tr></table>
+<p>Line 17: The removed dependency no longer appears in [pom.xml]. Now, let’s search for it in the Maven repositories.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000082E000001D4BB7B95DB.png" width="680" height="152" style="display:inline-block; margin:4px;width:17.999cm;height:4.023cm;" class="odt-zoomable" data-zoom-src="images/100000000000082E000001D4BB7B95DB.png" /></td></tr></table>
 
 <ul>
   <li>In [1], we add a dependency to the project;
   </li>
-  <li>in [2], we must specify information about the artifact we are looking for (groupId, artifactId, version, packaging (Type), and scope). We start by specifying the [groupId] [3],
+  <li>In [2], we must specify information about the artifact being searched for (groupId, artifactId, version, packaging (Type), and scope). We start by specifying [groupId] [3],
   </li>
-  <li>in [4], we press [space] to display the list of possible artifacts. Here, [junit] and [jnit-dep]. We choose [junit],
+  <li>in [4], we type [espace] to display the list of possible artifacts. Here, [junit] and [jnit-dep]. We select [junit],
   </li>
-  <li>in [5], following the same procedure, we select the most recent version. The packaging type is <i>jar,</i>
+  <li>then [5]; proceeding in the same way, we select the most recent version. The packaging type is <i>jar,</i>
   </li>
   <li>in [6], we select the <b>test</b> scope to indicate that the dependency is only needed for testing.
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000206000001D16C4BB7E2.png" width="259" height="233" style="display:inline-block; margin:4px;width:6.853cm;height:6.152cm;" class="odt-zoomable" data-zoom-src="images/1000000000000206000001D16C4BB7E2.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000206000001D16C4BB7E2.png" width="259" height="233" style="display:inline-block; margin:4px;width:6.853cm;height:6.152cm;" class="odt-zoomable" data-zoom-src="images/1000000000000206000001D16C4BB7E2.png" /></td></tr></table>
 
-<p>At [6], the added dependencies appear in the project. The [pom.xml] file reflects these changes:</p>
+<p>In [6], the added dependencies appear in the project. The [pom.xml] file reflects these changes:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0&quot;</span> <span style="color:#7f007f">xmlns:xsi</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#7f007f">xsi:schemaLocation</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -1224,7 +1226,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span><span style="color:#000000">jar</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span><span style="color:#000000">mv-exemple</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span><span style="color:#000000">http://maven.apache.org</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  &lt;url&gt;http://maven.apache.org&lt;/url&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span><span style="color:#000000">UTF-8</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span></span></span>
@@ -1242,19 +1244,19 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>Note that the [pom.xml] file does not mention the [hamcrest-core-1.1] dependency shown in [6]. This is because it is a dependency of JUnit 4.10 and not of the project itself. This is indicated by a different icon in the [Dependencies] branch. It was downloaded automatically.</p>
-<p>Now suppose we don’t know the [groupId] of the artifact we want. For example, we want to use Hibernate as an ORM (Object Relational Mapper), and that’s all we know. We can then go to the site [<a href="http://mvnrepository.com/"><u><span style="color: #0563c1">http://mvnrepository.com/</span></u></a>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000066C000001727F763B53.png" width="680" height="153" style="display:inline-block; margin:4px;width:17.999cm;height:4.052cm;" class="odt-zoomable" data-zoom-src="images/100000000000066C000001727F763B53.png" /></td></tr></table>
+<p>Note that the file [pom.xml] does not mention the dependency [hamcrest-core-1.1] that we see in [6]. This is because it is a dependency of JUnit 4.10 and not of the project itself. This is indicated by a different icon in the [Dependencies] branch. It was downloaded automatically.</p>
+<p>Now suppose we don’t know the [groupId] of the artifact we want. For example, we want to use Hibernate as ORM (Object Relational Mapper), and that’s all we know. We can then go to the [http://mvnrepository.com/] website:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000066C000001727F763B53.png" width="680" height="153" style="display:inline-block; margin:4px;width:17.999cm;height:4.052cm;" class="odt-zoomable" data-zoom-src="images/100000000000066C000001727F763B53.png" /></td></tr></table>
 
-<p>In [1], you can enter keywords. Type in <em>hibernate</em> and run the search.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000848000004EAACD32F77.png" width="680" height="404" style="display:inline-block; margin:4px;width:17.999cm;height:10.68cm;" class="odt-zoomable" data-zoom-src="images/1000000000000848000004EAACD32F77.png" /></td></tr></table>
+<p>In [1], you can enter keywords. Type in &quot;<em>hibernate&quot;</em> and run the search.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000848000004EAACD32F77.png" width="680" height="404" style="display:inline-block; margin:4px;width:17.999cm;height:10.68cm;" class="odt-zoomable" data-zoom-src="images/1000000000000848000004EAACD32F77.png" /></td></tr></table>
 
 <ul>
-  <li>In [2], select the [groupId] <i>org.hibernate </i>and the [artifactId] <i>hibernate-core</i>,
+  <li>In [2], let’s choose the [groupId], <i>org.hibernate</i>, and [artifactId] <i>“hibernate-core”</i>,
   </li>
-  <li>In [3], select version<i> 4.1.2-Final</i>,
+  <li>in [3], let’s choose version<i> 4.1.2-Final</i>,
   </li>
-  <li>in [4], we get the Maven code to paste into the [pom.xml] file. Let’s do that.
+  <li>in [4], we get the Maven code to paste into the [pom.xml] file. We do so.
   </li>
 </ul>
 
@@ -1269,7 +1271,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span><span style="color:#000000">jar</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span><span style="color:#000000">mv-exemple</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span><span style="color:#000000">http://maven.apache.org</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">url</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  &lt;url&gt;http://maven.apache.org&lt;/url&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span><span style="color:#000000">UTF-8</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span></span></span>
@@ -1292,16 +1294,16 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>We save the [pom.xml] file. Maven then downloads the new dependencies. The project evolves as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002ED0000029F4FD0C729.png" width="375" height="336" style="display:inline-block; margin:4px;width:9.91cm;height:8.878cm;" class="odt-zoomable" data-zoom-src="images/10000000000002ED0000029F4FD0C729.png" /></td></tr></table>
+<p>We save the file [pom.xml]. Maven then begins downloading the new dependencies. The project evolves as follows:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002ED0000029F4FD0C729.png" width="375" height="336" style="display:inline-block; margin:4px;width:9.91cm;height:8.878cm;" class="odt-zoomable" data-zoom-src="images/10000000000002ED0000029F4FD0C729.png" /></td></tr></table>
 
 <ul>
-  <li>in [5], the [hibernate-core-4.1.2-Final] dependency. In the repository where it was found, this [artifactId] is also described by a [pom.xml] file. This file was read, and Maven discovered that the [artifactId] had dependencies. It downloads those as well. It will do this for every downloaded [artifactId]. Ultimately, we find in [6] dependencies that we did not request directly. They are indicated by an icon different from that of the main [artifactId].
+  <li>in [5], the dependency [hibernate-core-4.1.2-Final]. In the repository where it was found, this [artifactId] is also described by a file named [pom.xml]. This file was read, and Maven discovered that [artifactId] had dependencies. It downloads those as well. It will do this for every downloaded [artifactId]. Ultimately, [6] contains dependencies that we did not request directly. They are indicated by an icon different from that of the main [artifactId].
   </li>
 </ul>
 
 <p>In this document, we use Maven primarily for this feature. This saves us from having to know all the dependencies of a library we want to use. We let Maven manage them. Furthermore, by sharing a [pom.xml] file among developers, we ensure that every developer is indeed using the same libraries.</p>
-<p>In the examples that follow, we will simply provide the [pom.xml] file used. The reader need only use it to replicate the conditions described in the document. Furthermore, Maven projects are supported by the major Java IDEs (Eclipse, NetBeans, IntelliJ, JDeveloper). Thus, the reader can use their favorite IDE to test the examples.</p>
+<p>In the examples that follow, we will simply provide the [pom.xml] file used. The reader need only use it to replicate the conditions described in the document. Furthermore, Maven projects are supported by the major Java IDEs (Eclipse, IntelliJ IDEA, Visual Studio, and others). Readers can therefore use their favorite IDE to test the examples.</p>
 
 
 

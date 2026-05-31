@@ -12,13 +12,13 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/en-javaee-juin-2012/version-7---multi-viewmulti-page-pam-web-application.html">
+        <link rel="canonical" href="https://stahe.github.io/en-javaee-juin-2012/version-7---pam-multi-view--multi-page-web-application.html">
       
       
-        <link rel="prev" href="version-6---integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture.html">
+        <link rel="prev" href="version-6---integration-of-the-web-layer-into-a-3-tier-architecture-jsf--ejb.html">
       
       
-        <link rel="next" href="version-8-porting-the-application-to-a-spring--tomcat-environment.html">
+        <link rel="next" href="version-8-porting-the-application-to-a-springtomcat-environment.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>12. Version 7 - Multi-view/multi-page PAM web application - Introduction to Java EE using the NetBeans IDE and the GlassFish application server</title>
+        <title>12. Version 7 - PAM multi-view / multi-page web application - Introduction to Java EE using the NetBeans IDE and the GlassFish application server</title>
       
     
     
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -92,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#12-version-7-multi-viewmulti-page-pam-web-application" class="md-skip">
+        <a href="#12-version-7-pam-multi-view-multi-page-web-application" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              12. Version 7 - Multi-view/multi-page PAM web application
+              12. Version 7 - PAM multi-view / multi-page web application
             
           </span>
         </div>
@@ -384,14 +386,14 @@
   
   
     <li class="md-nav__item">
-      <a href="jpa--an-overview.html" class="md-nav__link">
+      <a href="jpa--a-summary.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. JPA : An Overview
+    4. JPA : A Summary
   
 
     
@@ -411,14 +413,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-1-spring--jpa-architecture.html" class="md-nav__link">
+      <a href="version-1-spring-architecture--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Version 1: Spring / JPA Architecture
+    5. Version 1: Spring Architecture / JPA
   
 
     
@@ -438,14 +440,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-2-openejb--jpa-architecture.html" class="md-nav__link">
+      <a href="version-2-architecture-openejb--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Version 2: OpenEJB / JPA Architecture
+    6. Version 2: Architecture OpenEJB / JPA
   
 
     
@@ -472,7 +474,7 @@
   <span class="md-ellipsis">
     
   
-    7. Version 3: Porting the PAM application to a GlassFish application server
+    7. Version 3: Porting the PAM application to a Glassfish application server
   
 
     
@@ -499,7 +501,7 @@
   <span class="md-ellipsis">
     
   
-    8. Version 4 – Client/Server in a Web Service Architecture
+    8. Version 4 – client/server in a web service architecture
   
 
     
@@ -546,14 +548,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-5---pam-web--jsf-application.html" class="md-nav__link">
+      <a href="version-5---pam-web-application--jsf.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. Version 5 - PAM Web / JSF Application
+    10. Version 5 - PAM Web Application / JSF
   
 
     
@@ -573,14 +575,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture.html" class="md-nav__link">
+      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-architecture-jsf--ejb.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture
+    11. Version 6 - Integration of the web layer into a 3-tier architecture JSF / EJB
   
 
     
@@ -616,7 +618,7 @@
   <span class="md-ellipsis">
     
   
-    12. Version 7 - Multi-view/multi-page PAM web application
+    12. Version 7 - PAM multi-view / multi-page web application
   
 
     
@@ -627,14 +629,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="version-7---multi-viewmulti-page-pam-web-application.html" class="md-nav__link md-nav__link--active">
+      <a href="version-7---pam-multi-view--multi-page-web-application.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. Version 7 - Multi-view/multi-page PAM web application
+    12. Version 7 - PAM multi-view / multi-page web application
   
 
     
@@ -671,15 +673,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#122-the-netbeans-project-for-the-web-layer" class="md-nav__link">
+  <a href="#122-the-netbeans-project-of-the-web-layer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.2. The NetBeans project for the [web] layer
+        12.2. The Netbeans project of the [web] layer
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="12.2. The NetBeans project for the [web] layer">
+    <nav class="md-nav" aria-label="12.2. The Netbeans project of the [web] layer">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -716,10 +718,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1224-the-business-layer" class="md-nav__link">
+  <a href="#1224-the-metier-layer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.2.4. The [business] layer
+        12.2.4. The [métier] layer
       
     </span>
   </a>
@@ -732,15 +734,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#123-the-applications-beans" class="md-nav__link">
+  <a href="#123-the-application-beans" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.3. The application&#x27;s beans
+        12.3. The application beans
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="12.3. The application&#39;s beans">
+    <nav class="md-nav" aria-label="12.3. The application beans">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -805,10 +807,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1242-the-header-entetexhtml" class="md-nav__link">
+  <a href="#1242-the-header-of-entetexhtml" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.4.2. The header [entete.xhtml]
+        12.4.2. The header of [entete.xhtml]
       
     </span>
   </a>
@@ -824,12 +826,12 @@
   <a href="#125-use-cases-for-the-application" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.5. Use Cases for the Application
+        12.5. Use cases for the application
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="12.5. Use Cases for the Application">
+    <nav class="md-nav" aria-label="12.5. Use cases for the application">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -844,10 +846,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1252-the-fairesimulation-action" class="md-nav__link">
+  <a href="#1252-the-action-fairesimulation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.5.2. The [ faireSimulation] action
+        12.5.2. The action [faireSimulation]
       
     </span>
   </a>
@@ -866,10 +868,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1254-the-action-effacersimulation" class="md-nav__link">
+  <a href="#1254-the-effacersimulation-action" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.5.4. The action [ effacerSimulation]
+        12.5.4. The [effacerSimulation] action
       
     </span>
   </a>
@@ -880,7 +882,7 @@
   <a href="#1255-the-enregistrersimulation-action" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.5.5. The [ enregistrerSimulation] action
+        12.5.5. The [enregistrerSimulation] action
       
     </span>
   </a>
@@ -888,10 +890,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1256-the-action-retoursimulateur" class="md-nav__link">
+  <a href="#1256-action-retoursimulateur" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.5.6. The action [ retourSimulateur]
+        12.5.6. Action [retourSimulateur]
       
     </span>
   </a>
@@ -899,10 +901,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1257-the-viewsimulations-action" class="md-nav__link">
+  <a href="#1257-the-action-voirsimulations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.5.7. The [viewSimulations] action
+        12.5.7. The action [voirSimulations]
       
     </span>
   </a>
@@ -910,10 +912,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1258-the-removesimulation-action" class="md-nav__link">
+  <a href="#1258-action-retirersimulation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.5.8. The [ removeSimulation] action
+        12.5.8. Action [retirerSimulation]
       
     </span>
   </a>
@@ -921,10 +923,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1259-the-terminatesession-action" class="md-nav__link">
+  <a href="#1259-the-terminersession-action" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.5.9. The [ terminateSession] action
+        12.5.9. The [terminerSession] action
       
     </span>
   </a>
@@ -937,10 +939,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#126-integration-of-the-web-layer-into-a-3-tier-architecture-jsfejb" class="md-nav__link">
+  <a href="#126-integration-of-the-web-layer-into-a-3-tier-architecture-jsf-ejb" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.6. Integration of the web layer into a 3-tier architecture JSF/EJB
+        12.6. Integration of the web layer into a 3-tier architecture JSF / EJB
       
     </span>
   </a>
@@ -962,14 +964,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-8-porting-the-application-to-a-spring--tomcat-environment.html" class="md-nav__link">
+      <a href="version-8-porting-the-application-to-a-springtomcat-environment.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. Version 8: Porting the application to a Spring / Tomcat environment
+    13. Version 8: Porting the application to a Spring/Tomcat environment
   
 
     
@@ -996,7 +998,7 @@
   <span class="md-ellipsis">
     
   
-    14. Version 9: Implementing the web layer with PrimeFaces
+    14. Version 9: Implementing the Web Layer with Primefaces
   
 
     
@@ -1026,43 +1028,43 @@
 
 
 
-<p><a id="refheading87575112820228"></a></p>
-<h1 id="12-version-7-multi-viewmulti-page-pam-web-application">12. <span style="color: #365f91">Version 7 - Multi-view/multi-page PAM web application</span></h1>
-<p>Here we return to the initial architecture where the [business] layer was simulated. We now know that this can easily be replaced by the actual [business] layer. The simulated [business] layer facilitates testing.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003EB00000168240BD372.png" width="502" height="180" style="display:inline-block; margin:4px;width:13.27cm;height:4.763cm;" class="odt-zoomable" data-zoom-src="images/10000000000003EB00000168240BD372.png" /></td></tr></table>
+<p><span id="refheading87575112820228" name="refheading87575112820228" class="odt-bookmark-anchor"></span></p>
+<h1 id="12-version-7-pam-multi-view-multi-page-web-application">12. <span style="color: #365f91">Version 7 - PAM multi-view / multi-page web application</span></h1>
+<p>Here we return to the initial architecture where the [métier] layer was simulated. We now know that this can be easily replaced by the actual [métier] layer. The simulated [métier] layer facilitates testing.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003EB00000168240BD372.png" width="502" height="180" style="display:inline-block; margin:4px;width:13.27cm;height:4.763cm;" class="odt-zoomable" data-zoom-src="images/10000000000003EB00000168240BD372.png" /></td></tr></table>
 
-<p>A JSF application is of the MVC (Model-View-Controller) type:</p>
-<ul>
-  <li>the [Faces Servlet] is the generic controller provided by JSF. This controller is extended by application-specific event handlers. The event handlers encountered so far were methods of classes serving as models for JSF pages
-  </li>
-  <li>JSF pages send responses to the client browser. These are the views of the application.
-  </li>
-  <li>JSF pages contain dynamic elements known as the page model. Note that for some authors, the model encompasses the entities manipulated by the application, such as the <i>PayrollSheet </i>or <i>Employee </i>classes. To distinguish between these two models, we can refer to the application model and the JSF page model.
-  </li>
-</ul>
-
-<p>In the JSF architecture, transitioning from a JSFi page to a JSFj page can be problematic.</p>
-<ul>
-  <li>The JSFi page has been displayed. From this page, the user triggers a POST via some event [1]
-  </li>
-  <li>In JSF, this POST request is generally handled [2a,2b] by a method C of the Mi model of the JSFi page. We can say that method C is a secondary controller.
-  </li>
-  <li>If, at the end of this method, the JSFj page needs to be displayed, controller C must:
-  </li>
-</ul>
+<p>A JSF application is of the MVC type (Model-View-Controller):</p>
 <ol>
-  <li>update [2c] the Mj model of the JSFj page
+  <li>the [Faces Servlet] servlet is the generic controller provided by JSF. This controller is extended by application-specific event handlers. The event handlers encountered so far were methods of the classes serving as templates for the JSF pages
   </li>
-  <li>return [2a] to the main controller the navigation key that will allow the JSFj page to be displayed
+  <li>The JSF pages send responses to the client browser. These are the application views.
+  </li>
+  <li>The JSF pages contain dynamic elements known as the page template. Note that for some authors, the model encompasses the entities manipulated by the application, such as the <i>FeuilleSalaire </i>or <i>Employee </i>classes. To distinguish between these two models, we can refer to the application model and the JSF page model.
   </li>
 </ol>
 
-<p>Step 1 requires that the Mi model of the JSFi page have a reference to the Mj model of the JSFj page. This complicates matters somewhat, making the Mi models dependent on one another. Indeed, the C manager of the Mi model that updates the Mj model must be aware of the latter. If the Mj model needs to be changed, the C manager of the Mi model will also need to be changed.</p>
-<p>There is one scenario where model dependencies can be avoided: when there is a single M model used by all JSF pages. This architecture is only suitable for applications with just a few views, but it is very easy to use. This is the one we are currently using.</p>
-<p>In this context, the application architecture is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003F000000154E311D040.png" width="504" height="170" style="display:inline-block; margin:4px;width:13.335cm;height:4.498cm;" class="odt-zoomable" data-zoom-src="images/10000000000003F000000154E311D040.png" /></td></tr></table>
+<p>In the JSF architecture, navigating from a JSFi page to a JSFj page can be problematic.</p>
+<ol>
+  <li>The JSFi page has been displayed. From this page, the user triggers a POST via some event [1]
+  </li>
+  <li>in JSF, this POST will generally be handled by a C method of the Mi model of the page JSFi. We can say that the C method is a secondary controller.
+  </li>
+  <li>If, at the end of this method, the page JSFj needs to be displayed, controller C must:
+  </li>
+</ol>
+<ul>
+  <li>update [2c], the Mj template of page JSFj
+  </li>
+  <li>return [2a] to the main controller, the key for navigation that will enable the display of page JSFj
+  </li>
+</ul>
 
-<p><a id="refheading87577112820228"></a></p>
+<p>Step 1 requires that the Mi template for page JSFi reference the Mj template for page JSFj. This complicates matters somewhat, making the Mi templates dependent on one another. Indeed, the C manager for the Mi template that updates the Mj template must be aware of the latter. If the Mj template needs to be changed, the C handler for the Mi template will also need to be changed.</p>
+<p>There is one case where model dependencies can be avoided: when there is a single M model used by all JSF pages. This architecture is only usable in applications with just a few views, but it is very simple to use. This is the one we are currently using.</p>
+<p>In this context, the application architecture is as follows:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003F000000154E311D040.png" width="504" height="170" style="display:inline-block; margin:4px;width:13.335cm;height:4.498cm;" class="odt-zoomable" data-zoom-src="images/10000000000003F000000154E311D040.png" /></td></tr></table>
+
+<p><span id="refheading87577112820228" name="refheading87577112820228" class="odt-bookmark-anchor"></span></p>
 <h2 id="121-the-application-views">12.1. <span style="color: #4f81bd">The application views</span></h2>
 <p>The different views presented to the user will be as follows:</p>
 <ul>
@@ -1070,40 +1072,40 @@
 <p>the [VueSaisies] view, which displays the simulation form</p>
 </li>
 <li>
-<p>the [VueSimulation] view used to display the detailed simulation results:</p>
+<p>the [VueSimulation] view, used to display the detailed simulation results:</p>
 </li>
 </ul>
 <p><img src="images/10000000000001C3000000BBF5104DAB.png" width="316" height="131" style="width:8.35cm;height:3.463cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001C3000000BBF5104DAB.png" /></p>
 <p><img src="images/10000000000001FB000002B4C45CDD3A.png" width="353" height="482" style="width:9.35cm;height:12.762cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001FB000002B4C45CDD3A.png" /></p>
 <ul>
-<li>the [SimulationsView] view, which lists the simulations performed by the customer</li>
+<li>the [VueSimulations] view, which lists the simulations performed by the customer</li>
 </ul>
 <p><img src="images/100000000000036B000000CF99D4CD9E.png" width="612" height="145" style="width:16.2cm;height:3.831cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000036B000000CF99D4CD9E.png" /></p>
 <ul>
-<li>the [EmptySimulationsView], which indicates that the client has no simulations or no more simulations:</li>
+<li>the [VueSimulationsVides] view, which indicates that the customer has no simulations or no more simulations:</li>
 </ul>
 <p><img src="images/10000000000001B600000089238CC36A.png" width="307" height="96" style="width:8.11cm;height:2.536cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B600000089238CC36A.png" /></p>
 <ul>
-  <li>the [ErrorView] view, which indicates one or more errors:
+  <li>the [VueErreur] view, which indicates one or more errors:
   </li>
 </ul>
 
 <p><img src="images/10000000000001B7000000E270DECD6C.png" width="307" height="158" style="width:8.13cm;height:4.186cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B7000000E270DECD6C.png" /></p>
-<p><a id="refheading87579112820228"></a></p>
-<h2 id="122-the-netbeans-project-for-the-web-layer">12.2. <span style="color: #4f81bd">The NetBeans project for the [web] layer</span></h2>
-<p>The NetBeans project for this version will be the following Maven project:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004F40000025444FA9605.png" width="634" height="298" style="display:inline-block; margin:4px;width:16.775cm;height:7.885cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F40000025444FA9605.png" /></td></tr></table>
+<p><span id="refheading87579112820228" name="refheading87579112820228" class="odt-bookmark-anchor"></span></p>
+<h2 id="122-the-netbeans-project-of-the-web-layer">12.2. <span style="color: #4f81bd">The Netbeans project of the [web] layer</span></h2>
+<p>The Netbeans project for this version will be the following Maven project:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004F40000025444FA9605.png" width="634" height="298" style="display:inline-block; margin:4px;width:16.775cm;height:7.885cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F40000025444FA9605.png" /></td></tr></table>
 
 <ul>
   <li>in [1], the configuration files,
   </li>
-  <li>in [2], the JSF pages,
+  <li>in [2], the pages from JSF,
   </li>
   <li>in [3], the stylesheet and background image for the views,
   </li>
-  <li>in [4], the [web] layer classes,
+  <li>in [4], the classes of the layer [web],
   </li>
-  <li>in [5], the lower layers of the application,
+  <li>in [5], the application&#x27;s lower layers,
   </li>
   <li>in [6], the message file for the application&#x27;s internationalization,
   </li>
@@ -1112,34 +1114,9 @@
 </ul>
 
 <p>Let’s review some of these elements.</p>
-<p><a id="refheading87581112820228"></a></p>
-<h3 id="1221-configuration-files">12.2.1. <span style="color: #4f81bd">Configuration files</span></h3>
-<p>The [web.xml] and [faces-config.xml] files are identical to those in the previous project, with the exception of one detail in [web.xml]:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">${project.groupId}</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">mv-pam-ejb-metier-dao-eclipselink</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">${project.version}</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">type</span><span style="color:#008080">&gt;</span><span style="color:#000000">ejb</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">type</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">${project.groupId}</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">mv-pam-jsf2-ejb</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">${project.version}</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">type</span><span style="color:#008080">&gt;</span><span style="color:#000000">war</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">type</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
-</code></pre></div>
-
-<ul>
-  <li>lines 4-6: the home page is the [saisie.xhtml] page
-  </li>
-</ul>
-
-<p><a id="refheading87583112820228"></a></p>
-<h3 id="1222-the-style-sheet">12.2.2. <span style="color: #4f81bd">The style sheet</span></h3>
-<p>The [styles.css] file is as follows:</p>
+<p><span id="refheading87581112820228" name="refheading87581112820228" class="odt-bookmark-anchor"></span></p>
+<h3 id="1221-configuration-files">12.2.1. <span style="color: #4f81bd"><strong>Configuration files</strong></span></h3>
+<p>The files [web.xml] and [faces-config.xml] are identical to those in the previous project, with the exception of one detail in [web.xml]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;1.0&quot;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;UTF-8&quot;</span><span style="color:#008080">?&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">web-app</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;3.0&quot;</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/xml/ns/javaee&quot;</span> <span style="color:#7f007f">xmlns:xsi</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span> <span style="color:#7f007f">xsi:schemaLocation</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -1151,8 +1128,14 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">web-app</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>Here are some examples of JSF code using these styles:</p>
-<p><u><strong>Simulations View</strong></u></p>
+<ul>
+  <li>lines 4-6: the home page is [saisie.xhtml]
+  </li>
+</ul>
+
+<p><span id="refheading87583112820228" name="refheading87583112820228" class="odt-bookmark-anchor"></span></p>
+<h3 id="1222-the-style-sheet">12.2.2. <span style="color: #4f81bd">The style sheet</span></h3>
+<p>The file [styles.css] is as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#3f7f7f">.simulationsHeader </span><span style="color:#000000">{</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">text-align</span><span style="color:#000000">: </span><span style="color:#2a00e1">center</span><span style="color:#000000">;</span></span></span>
@@ -1214,7 +1197,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#3f7f7f">.erreursHeaders </span><span style="color:#000000">{</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">background</span><span style="color:#000000">: </span><span style="color:#2a00e1">Teal</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">background-color</span><span style="color:#000000">: </span><span style="color:#2a00e1">#ff6633</span><span style="color:#000000">;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">   background-color: #ff6633;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">color</span><span style="color:#000000">: </span><span style="color:#2a00e1">Snow</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">font-style</span><span style="color:#000000">: </span><span style="color:#2a00e1">italic</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">text-align</span><span style="color:#000000">: </span><span style="color:#2a00e1">center</span></span></span>
@@ -1223,54 +1206,53 @@
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#3f7f7f">.erreurClasse </span><span style="color:#000000">{</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">background</span><span style="color:#000000">: </span><span style="color:#2a00e1">MediumTurquoise</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">background-color</span><span style="color:#000000">: </span><span style="color:#2a00e1">#ffcc66</span><span style="color:#000000">;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">   background-color: #ffcc66;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">height</span><span style="color:#000000">: </span><span style="color:#2a00e1">25px</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">text-align</span><span style="color:#000000">: </span><span style="color:#2a00e1">center</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#3f7f7f">.erreurMessage </span><span style="color:#000000">{</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">background</span><span style="color:#000000">: </span><span style="color:#2a00e1">PowderBlue</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">background-color</span><span style="color:#000000">: </span><span style="color:#2a00e1">#ffcc99</span><span style="color:#000000">;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">   background-color: #ffcc99;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">   </span><span style="color:#7f007f">text-align</span><span style="color:#000000">: </span><span style="color:#2a00e1">left</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
+</code></pre></div>
+
+<p>Here are some examples of JSF code using these styles:</p>
+<p><u><strong>Simulations View</strong></u></p>
+<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">          </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:dataTable </span><span style="color:#7f007f">value</span><span style="color:#000000">=</span>&quot;#{form.simulations}&quot;<span style="color:#000000"> </span><span style="color:#7f007f">var</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;simulation&quot;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#2a00ff">                       </span><span style="color:#7f007f">headerClass</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;simulationsHeaders&quot; </span><span style="color:#7f007f">columnClasses</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;simuNum,simuNom,simuPrenom,simuHT,simuJT,simuSalaireBase,simuIndemnites,simuCotisationsSociales,simuSalaireNet&quot;</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
 <p>The result is as follows:</p>
 <p><img src="images/100000000000027300000082DF91AB72.png" width="439" height="91" style="width:11.61cm;height:2.408cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000027300000082DF91AB72.png" /></p>
 <p><u><strong>Error View</strong></u></p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#2a00ff">                       </span><span style="color:#7f007f">headerClass</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;simulationsHeaders&quot; </span><span style="color:#7f007f">columnClasses</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;simuNum,simuNom,simuPrenom,simuHT,simuJT,simuSalaireBase,simuIndemnites,simuCotisationsSociales,simuSalaireNet&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">          </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:dataTable </span><span style="color:#7f007f">value</span><span style="color:#000000">=</span>&quot;#{form.erreurs}&quot;<span style="color:#000000"> </span><span style="color:#7f007f">var</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;erreur&quot;</span></span></span>
-</code></pre></div>
-
-<p><img src="images/100000000000018B00000066D39B1194.png" width="276" height="71" style="width:7.31cm;height:1.887cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000018B00000066D39B1194.png" /></p>
-<p><a id="refheading87585112820228"></a></p>
-<h3 id="1223-the-message-file">12.2.3. <span style="color: #4f81bd">The message file</span></h3>
-<p>The message file [messages_fr.properties] is as follows:</p>
-<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#2a00ff">                                 </span><span style="color:#7f007f">headerClass</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;erreursHeaders&quot; </span><span style="color:#7f007f">columnClasses</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;erreurClasse,erreurMessage&quot;</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p><a id="refheading87587112820228"></a></p>
-<h3 id="1224-the-business-layer">12.2.4. <span style="color: #4f81bd">The [business] layer</span></h3>
-<p>The simulated [business] layer is modified as follows:</p>
+<p><img src="images/100000000000018B00000066D39B1194.png" width="276" height="71" style="width:7.31cm;height:1.887cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000018B00000066D39B1194.png" /></p>
+<p><span id="refheading87585112820228" name="refheading87585112820228" class="odt-bookmark-anchor"></span></p>
+<h3 id="1223-the-message-file">12.2.3. <span style="color: #4f81bd">The message file</span></h3>
+<p>The message file [messages_fr.properties] is as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-javascript">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.titre=</span><span style="color:#2a00ff">Simulateur</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">calcul</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">paie</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.comboEmployes.libell\u00e9=</span><span style="color:#2a00ff">Employ\u00e9</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.heuresTravaill\u00e9es.libell\u00e9=</span><span style="color:#2a00ff">Heures</span><span style="color:#000000"> </span><span style="color:#2a00ff">travaill\u00e9es</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.joursTravaill\u00e9s.libell\u00e9=</span><span style="color:#2a00ff">Jours</span><span style="color:#000000"> </span><span style="color:#2a00ff">travaill\u00e9s</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.heuresTravaill\u00e9es.required=</span><span style="color:#2a00ff">Indiquez</span><span style="color:#000000"> </span><span style="color:#2a00ff">le</span><span style="color:#000000"> </span><span style="color:#2a00ff">nombre</span><span style="color:#000000"> </span><span style="color:#2a00ff">d&#x27;heures</span><span style="color:#000000"> </span><span style="color:#2a00ff">travaill\u00e9es</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">form.heuresTravaill\u00e9es.required=Indiquez le nombre d&#x27;hours worked</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.heuresTravaill\u00e9es.validation=</span><span style="color:#2a00ff">Donn\u00e9e</span><span style="color:#000000"> </span><span style="color:#2a00ff">incorrecte</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.joursTravaill\u00e9s.required=</span><span style="color:#2a00ff">Indiquez</span><span style="color:#000000"> </span><span style="color:#2a00ff">le</span><span style="color:#000000"> </span><span style="color:#2a00ff">nombre</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">jours</span><span style="color:#000000"> </span><span style="color:#2a00ff">travaill\u00e9s</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.joursTravaill\u00e9s.validation=</span><span style="color:#2a00ff">Donn\u00e9e</span><span style="color:#000000"> </span><span style="color:#2a00ff">incorrecte</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.btnSalaire.libell\u00e9=</span><span style="color:#2a00ff">Salaire</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.btnRaz.libell\u00e9=</span><span style="color:#2a00ff">Raz</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">exception.header=</span><span style="color:#2a00ff">L&#x27;exception</span><span style="color:#000000"> </span><span style="color:#2a00ff">suivante</span><span style="color:#000000"> </span><span style="color:#2a00ff">s&#x27;est</span><span style="color:#000000"> </span><span style="color:#2a00ff">produite</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">exception.httpCode=</span><span style="color:#2a00ff">Code</span><span style="color:#000000"> </span><span style="color:#2a00ff">HTTP</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">l&#x27;erreur</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">exception.message=</span><span style="color:#2a00ff">Message</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">l&#x27;exception</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">exception.requestUri=</span><span style="color:#2a00ff">Url</span><span style="color:#000000"> </span><span style="color:#2a00ff">demand\u00e9e</span><span style="color:#000000"> </span><span style="color:#2a00ff">lors</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">l&#x27;erreur</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">exception.servletName=</span><span style="color:#2a00ff">Nom</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">la</span><span style="color:#000000"> </span><span style="color:#2a00ff">servlet</span><span style="color:#000000"> </span><span style="color:#2a00ff">demand\u00e9e</span><span style="color:#000000"> </span><span style="color:#2a00ff">lorsque</span><span style="color:#000000"> </span><span style="color:#2a00ff">l&#x27;erreur</span><span style="color:#000000"> </span><span style="color:#2a00ff">s&#x27;est</span><span style="color:#000000"> </span><span style="color:#2a00ff">produite</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">exception.header=L&#x27;the following exception occurred</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">exception.httpCode=Code HTTP de l&#x27;error</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">exception.message=Message de l&#x27;exception</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">exception.requestUri=Url demand\u00e9e lors de l&#x27;error</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">exception.servletName=Nom de la servlet demand\u00e9e lorsque l&#x27;error occurred</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.infos.employ\u00e9=</span><span style="color:#2a00ff">Informations</span><span style="color:#000000"> </span><span style="color:#2a00ff">Employ\u00e9</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.employe.nom=</span><span style="color:#2a00ff">Nom</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.employe.pr\u00e9nom=</span><span style="color:#2a00ff">Pr\u00e9nom</span></span></span>
@@ -1291,7 +1273,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.infos.salaire=</span><span style="color:#2a00ff">Informations</span><span style="color:#000000"> </span><span style="color:#2a00ff">Salaire</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.salaire.base=</span><span style="color:#2a00ff">Salaire</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">base</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.salaire.cotisationsSociales=</span><span style="color:#2a00ff">Cotisations</span><span style="color:#000000"> </span><span style="color:#2a00ff">sociales</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.salaire.entretien=</span><span style="color:#2a00ff">Indemnit\u00e9s</span><span style="color:#000000"> </span><span style="color:#2a00ff">d&#x27;entretien</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">form.salaire.entretien=Indemnit\u00e9s d&#x27;maintenance</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.salaire.repas=</span><span style="color:#2a00ff">Indemnit\u00e9s</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">repas</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.salaire.net=</span><span style="color:#2a00ff">Salaire</span><span style="color:#000000"> </span><span style="color:#2a00ff">net</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">form.menu.faireSimulation=</span><span style="color:#2a00ff">|</span><span style="color:#000000"> </span><span style="color:#2a00ff">Faire</span><span style="color:#000000"> </span><span style="color:#2a00ff">la</span><span style="color:#000000"> </span><span style="color:#2a00ff">simulation</span></span></span>
@@ -1310,39 +1292,15 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">simulations.headers.cotisationsSociales=</span><span style="color:#2a00ff">Cotisations</span><span style="color:#000000"> </span><span style="color:#2a00ff">sociales</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">simulations.headers.salaireNet=</span><span style="color:#2a00ff">SalaireNet</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">simulations.headers.numero=</span><span style="color:#2a00ff">N\u00b0</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">erreur.titre=</span><span style="color:#2a00ff">Une</span><span style="color:#000000"> </span><span style="color:#2a00ff">erreur</span><span style="color:#000000"> </span><span style="color:#2a00ff">s&#x27;est</span><span style="color:#000000"> </span><span style="color:#2a00ff">produite.</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">erreur.titre=Une erreur s&#x27;is produced.</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">erreur.exceptions=</span><span style="color:#2a00ff">Cha\u00eene</span><span style="color:#000000"> </span><span style="color:#2a00ff">des</span><span style="color:#000000"> </span><span style="color:#2a00ff">exceptions</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">exception.type=</span><span style="color:#2a00ff">Type</span><span style="color:#000000"> </span><span style="color:#2a00ff">de</span><span style="color:#000000"> </span><span style="color:#2a00ff">l&#x27;exception</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">exception.type=Type de l&#x27;exception</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">exception.message=</span><span style="color:#2a00ff">Message</span><span style="color:#000000"> </span><span style="color:#2a00ff">associ\u00e9</span></span></span>
 </code></pre></div>
 
-<ul>
-  <li>line 8: the list of employees
-  </li>
-  <li>line 7: the same list as a dictionary indexed by the employees&#x27; SS numbers
-  </li>
-  <li>lines 24–39: the <i><span style="color: #000000">findAllEmployees</span></i> method, which returns the list of employees. This method creates a hard-coded list and references it via the <i>employees</i> field from line 8.
-  </li>
-  <li>lines 27–33: a list and a dictionary of two employees are created
-  </li>
-  <li>line 35: an employee is added to the <b>employees</b> list (line 8) but not to the <b>hashEmployees</b> dictionary (line 7). This is so that the employee appears in the employee dropdown but is not recognized by the <b><span style="color: #000000">calculatePayroll</span></b> method <span style="color: #000000">(line 14), causing it to throw an exception (line 17).</span>
-  </li>
-  <li><span style="color: #000000">Lines 11–21: the </span><b><span style="color: #000000">calculatePayroll</span></b><span style="color: #000000"> method</span>
-  </li>
-  <li><span style="color: #000000">Line 14: The employee is looked up in the </span><b>`hashEmployees` </b><span style="color: #000000">dictionary </span>using their SSN. If they are not found, an exception is thrown (lines 16–18). Thus, we will get an exception for the employee with SSN <b>X </b>added on line 35 to the <b>`employees`</b> list but not to the <b>`hashEmployees` </b>dictionary.
-  </li>
-  <li>Line 20: A fictitious pay stub is created and returned.
-  </li>
-</ul>
-
-<p><a id="refheading217532813040411"></a></p>
-<h2 id="123-the-applications-beans">12.3. <span style="color: #4f81bd">The application&#x27;s beans</span></h2>
-<p>There will be three beans with three different scopes:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000B900000070C19A46EE.png" width="130" height="79" style="display:inline-block; margin:4px;width:3.431cm;height:2.078cm;" class="odt-zoomable" data-zoom-src="images/10000000000000B900000070C19A46EE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
-
-<p><a id="refheading217534813040411"></a></p>
-<h3 id="1231-the-applicationdata-bean">12.3.1. <span style="color: #4f81bd">The ApplicationData bean</span></h3>
-<p>The <strong>ApplicationData</strong> bean will have <em>application</em> scope:</p>
+<p><span id="refheading87587112820228" name="refheading87587112820228" class="odt-bookmark-anchor"></span></p>
+<h3 id="1224-the-metier-layer">12.2.4. <span style="color: #4f81bd">The [métier] layer</span></h3>
+<p>The simulated [métier] layer is modified as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> metier;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -1386,24 +1344,33 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<ul>
-  <li>line 11: the <b>@Named</b> annotation makes the class a managed bean. Note that, unlike in the previous project, we did not use the <b>@ManagedBean</b> annotation. The reason is that a reference to this class must be injected into another class using the <b>@Inject</b> annotation, and @Inject only injects classes with the <b>@Named</b> annotation.
+<ol>
+  <li>line 8: the list of employees
   </li>
-  <li>Line 12: The <b>@ApplicationScoped</b> annotation makes the class an <b>application-scoped</b> object. Note that the annotation class is [<span style="color: #000000">javax.enterprise.context.ApplicationScoped] (line 6) and not [javax.faces.bean.ApplicationScoped] as in the beans of the previous project.</span>
+  <li>Line 7: The same list in the form of a dictionary indexed by the employee ID SS
   </li>
-</ul>
+  <li>Lines 24–39: The <i><span style="color: #000000">findAllEmployes</span></i> method, which returns the list of employees. This method creates a hard-coded list and references it via the <i>employees</i> field in line 8.
+  </li>
+  <li>Lines 27–33: A list and a dictionary of two employees are created
+  </li>
+  <li>Line 35: An employee is added to the <b>employees</b> list (line 8) but not to the <b>hashEmployes</b> dictionary (line 7). This is done so that the employee appears in the employee combo box but is not recognized by the <b><span style="color: #000000">calculerFeuilleSalaire</span></b> method <span style="color: #000000">(line 14), causing it to throw an exception (line 17).</span>
+  </li>
+  <li><span style="color: #000000">lines 11–21: the </span><b><span style="color: #000000">calculerFeuilleSalaire</span></b><span style="color: #000000"> method</span>
+  </li>
+  <li><span style="color: #000000">line 14: the employee is searched for in the dictionary </span><b>hashEmployes </b>using their ID SS. If not found, an exception is thrown (lines 16–18). Thus, we will have an exception for the employee with ID SS <b>X </b>added on line 35 to the <b>employee</b> list but not to the <b>hashEmployes</b> dictionary.
+  </li>
+  <li>On line 20, a dummy pay slip is created and returned.
+  </li>
+</ol>
 
-<p>The <strong>ApplicationData</strong> bean serves two purposes:</p>
-<ul>
-  <li>line 16: maintaining a reference to the [business] layer,
-  </li>
-  <li>lines 18–19: defining a logger that can be used by other beans to log to the GlassFish console.
-  </li>
-</ul>
+<p><span id="refheading217532813040411" name="refheading217532813040411" class="odt-bookmark-anchor"></span></p>
+<h2 id="123-the-application-beans">12.3. <span style="color: #4f81bd">The application beans</span></h2>
+<p>There will be three beans with three different scopes:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000B900000070C19A46EE.png" width="130" height="79" style="display:inline-block; margin:4px;width:3.431cm;height:2.078cm;" class="odt-zoomable" data-zoom-src="images/10000000000000B900000070C19A46EE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p><a id="refheading217536813040411"></a></p>
-<h3 id="1232-the-sessiondata-bean">12.3.2. <span style="color: #4f81bd">The SessionData bean</span></h3>
-<p>The <strong>SessionData</strong> bean will have session scope:</p>
+<p><span id="refheading217534813040411" name="refheading217534813040411" class="odt-bookmark-anchor"></span></p>
+<h3 id="1231-the-applicationdata-bean">12.3.1. <span style="color: #4f81bd">The ApplicationData bean</span></h3>
+<p>The <strong>ApplicationData</strong> bean will have <em>application</em> scope:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> web.beans.application;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -1442,30 +1409,23 @@
 </code></pre></div>
 
 <ul>
-  <li>Line 13: The <b>SessionData</b> class is a managed bean (@Named) that can be injected into other managed beans,
+  <li>Line 11: The <b>@Named</b> annotation makes the class a managed bean. Note that, unlike in the previous project, we did not use the <b>@ManagedBean</b> annotation. The reason is that a reference to this class must be injected into another class using the <b>@Inject</b> annotation, and @Inject only injects classes with the <b>@Named</b> annotation.
   </li>
-  <li>line 14: it has <b>session</b> scope (@SessionScoped),
-  </li>
-  <li>lines 18–19: a reference to the <b>ApplicationData</b> bean is injected into it (@Inject),
-  </li>
-  <li>lines 21–32: the application data that must be maintained across sessions.
-  </li>
-  <li>line 21: the list of simulations performed by the user,
-  </li>
-  <li>line 22: the number of the last saved simulation,
-  </li>
-  <li>line 23: the last simulation that was performed,
-  </li>
-  <li>lines 25–30: the menu options,
-  </li>
-  <li>line 32: the application locale.
+  <li>Line 12: The <b>@ApplicationScoped</b> annotation makes the class an <b>application-scoped</b> object. Note that the class of the annotation is [javax.enterprise.context.ApplicationScoped] <span style="color: #000000">(line 6) and not [javax.faces.bean.ApplicationScoped] as in the beans of the previous project.</span>
   </li>
 </ul>
 
-<p>Lines 39–44: the <strong>init</strong> method is executed after the class is instantiated (@PostConstruct). Here, it is used only to log its execution. We must be able to verify that it is executed only once per user since the class is session-scoped. Line 42: the method uses the logger defined in the <strong>ApplicationData</strong> class. This is why we needed to inject a reference to this bean (lines 18–19).</p>
-<p><a id="refheading217538813040411"></a></p>
-<h3 id="1233-the-form-bean">12.3.3. <span style="color: #4f81bd">The Form Bean</span></h3>
-<p>The <strong>Form</strong> bean is <em>request-scoped</em>:</p>
+<p>The <strong>ApplicationData</strong> bean serves two purposes:</p>
+<ul>
+  <li>line 16: maintains a reference to the [métier] layer,
+  </li>
+  <li>lines 18–19: define a logger that can be used by other beans to log to the Glassfish console.
+  </li>
+</ul>
+
+<p><span id="refheading217536813040411" name="refheading217536813040411" class="odt-bookmark-anchor"></span></p>
+<h3 id="1232-the-sessiondata-bean">12.3.2. <span style="color: #4f81bd">The SessionData bean</span></h3>
+<p>The <strong>SessionData</strong> bean will have session scope:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> web.beans.session;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -1528,23 +1488,30 @@
 </code></pre></div>
 
 <ul>
-  <li>line 17, the class is a managed bean (@Named),
+  <li>line 13: the class <b>SessionData </b>is a managed bean (@Named) that can be injected into other managed beans,
   </li>
-  <li>line 18, request-scoped (@RequestScoped),
+  <li>line 14: it has <b>session</b> scope (@SessionScoped),
   </li>
-  <li>lines 24–25: injection of a reference to the application-scoped bean <b>ApplicationData</b>,
+  <li>lines 18–19: a reference to the <b>ApplicationData</b> bean is injected into it (@Inject),
   </li>
-  <li>lines 26–27: injection of a reference to the session-scoped bean <b>SessionData.</b>
+  <li>lines 21–32: application data that must be persisted across sessions.
+  </li>
+  <li>line 21: the list of simulations performed by the user,
+  </li>
+  <li>line 22: the number of the last saved simulation,
+  </li>
+  <li>line 23: the last simulation that was performed,
+  </li>
+  <li>lines 25–30: the menu options,
+  </li>
+  <li>line 32: the application locale.
   </li>
 </ul>
 
-<p><a id="refheading217540813040411"></a></p>
-<h2 id="124-the-application-pages">12.4. <span style="color: #4f81bd">The application pages</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000E600000101812299B6.png" width="161" height="180" style="display:inline-block; margin:4px;width:4.26cm;height:4.761cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E600000101812299B6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
-
-<p><a id="refheading217542813040411"></a></p>
-<h3 id="1241-layoutxhtml">12.4.1. <span style="color: #4f81bd">[layout.xhtml]</span></h3>
-<p>The [layout.xhtml] page handles the layout of all views:</p>
+<p>Lines 39–44: the <strong>init</strong> method is executed after instantiation of the class (@PostConstruct). Here, it is used only to log its execution. We must be able to verify that it is executed only once per user since the class is session-scoped. Line 42: the method uses the logger defined in the <strong>ApplicationData</strong> class. This is why we needed to inject a reference to this bean (lines 18–19).</p>
+<p><span id="refheading217538813040411" name="refheading217538813040411" class="odt-bookmark-anchor"></span></p>
+<h3 id="1233-the-form-bean">12.3.3. <span style="color: #4f81bd">The Form Bean</span></h3>
+<p>The <strong>Form</strong> bean is <em>request-scoped</em>:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> web.beans.request;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -1625,31 +1592,24 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>Every view consists of the following elements:</p>
 <ul>
-  <li>a header displayed by the fragment [entete.xhtml] (line 24),
+  <li>line 17, the class is a managed bean (@Named),
   </li>
-  <li>a body consisting of two fragments called <b>part1 </b>(lines 26–28) and <b>part2 </b>(line 29),
+  <li>line 18, request-scoped (@RequestScoped),
   </li>
-  <li>line 8: the <b>locale</b> attribute ensures the internationalization of the pages. Here, there will be only one: <b>fr_FR</b>,
+  <li>lines 24–25: injection of a reference to the application-scoped bean <b>ApplicationData</b>,
   </li>
-  <li>lines 14–19: JavaScript code.
+  <li>lines 26-27: injection of a reference to the session-scoped bean <b>SessionData.</b>
   </li>
 </ul>
 
-<p>The display of the page [layout.xhtml] is as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003680000017280519B63.png" width="436" height="185" style="display:inline-block; margin:4px;width:11.536cm;height:4.895cm;" class="odt-zoomable" data-zoom-src="images/10000000000003680000017280519B63.png" /></td></tr></table>
+<p><span id="refheading217540813040411" name="refheading217540813040411" class="odt-bookmark-anchor"></span></p>
+<h2 id="124-the-application-pages">12.4. <span style="color: #4f81bd">The application pages</span></h2>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000E600000101812299B6.png" width="161" height="180" style="display:inline-block; margin:4px;width:4.26cm;height:4.761cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E600000101812299B6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<ul>
-  <li>in [1], the header [entete.xhtml],
-  </li>
-  <li>in [2], the <b>part1</b> fragment.
-  </li>
-</ul>
-
-<p><a id="refheading217544813040411"></a></p>
-<h3 id="1242-the-header-entetexhtml">12.4.2. <span style="color: #4f81bd">The header [entete.xhtml]</span></h3>
-<p>The code for the [entete.xhtml] page is as follows:</p>
+<p><span id="refheading217542813040411" name="refheading217542813040411" class="odt-bookmark-anchor"></span></p>
+<h3 id="1241-layoutxhtml">12.4.1. <span style="color: #4f81bd">[layout.xhtml]</span></h3>
+<p>The page [layout.xhtml] handles the layout of all views:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -1686,22 +1646,31 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
+<p>Every view consists of the following elements:</p>
 <ul>
-  <li>line 12: the application title,
+  <li>a header displayed by the fragment [entete.xhtml] (line 24),
   </li>
-  <li>lines 16–21: the six links corresponding to the six actions the user can perform. These links are controlled (<b>rendered</b> attribute) by Booleans in the <b>SessionData</b> bean,
+  <li>a body consisting of two fragments named <b>part1 </b>(lines 26–28) and <b>part2 </b>(line 29),
   </li>
-  <li>line 17: clicking the [Clear Simulation] link triggers the execution of the JavaScript function <b>raz</b>. This function was defined in the [layout.xhtml] template,
+  <li>line 8: the <b>locale</b> attribute ensures the internationalization of the pages. Here there will be only one: <b>fr_FR</b>,
   </li>
-  <li>line 18: the <b>immediate=true</b> attribute ensures that data validity is not checked before the <i>[Form].enregistrerSimulation </i>method is executed. This is intentional. You may want to save the last simulation performed a minute ago even if the data entered since then in the form (but not yet validated) is invalid. The same applies to the actions [View Simulations], [Clear Simulation], [Return to Simulator], and [End Session].
+  <li>lines 14–19: a code Javascript.
   </li>
 </ul>
 
-<p><a id="refheading87591112820228"></a></p>
-<h2 id="125-use-cases-for-the-application">12.5. <span style="color: #4f81bd">Use Cases for the Application</span></h2>
-<p><a id="refheading87599112820228"></a></p>
-<h3 id="1251-displaying-the-home-page">12.5.1. <span style="color: #4f81bd">Displaying the home page</span></h3>
-<p>The home page is the following [saisie.xhtml] page:</p>
+<p>The display of the page [layout.xhtml] is as follows:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003680000017280519B63.png" width="436" height="185" style="display:inline-block; margin:4px;width:11.536cm;height:4.895cm;" class="odt-zoomable" data-zoom-src="images/10000000000003680000017280519B63.png" /></td></tr></table>
+
+<ol>
+  <li>in [1], the header [entete.xhtml],
+  </li>
+  <li>in [2], the fragment <b>part1</b>.
+  </li>
+</ol>
+
+<p><span id="refheading217544813040411" name="refheading217544813040411" class="odt-bookmark-anchor"></span></p>
+<h3 id="1242-the-header-of-entetexhtml">12.4.2. <span style="color: #4f81bd">The header of [entete.xhtml]</span></h3>
+<p>The code for page [entete.xhtml] is as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -1732,15 +1701,24 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<ul>
-  <li>line 8: it is displayed within the [layout.xhtml] page,
+<ol>
+  <li>line 12: the application title,
   </li>
-  <li>line 9: in place of the fragment named <b>part1</b>. In this fragment, the page [saisie2.xhtml] is displayed:
+  <li>lines 16–21: the six links corresponding to the six actions the user can perform. These links are controlled (<b>rendered</b> attribute) by Booleans from the <b>SessionData</b> bean,
   </li>
-</ul>
+  <li>line 17: clicking the [Effacer la simulation] link triggers the execution of the Javascript <b>raz</b> function. This function was defined in the [layout.xhtml] model,
+  </li>
+  <li>line 18: the attribute <b>immediate=true </b>ensures that data validity is not checked before the method <i>[Form].enregistrerSimulation </i>is executed. This is intentional. You may want to save the last simulation performed a minute ago even if the data entered in the form since then (but not yet validated) is invalid. The same applies to actions [Voir les simulations], [Effacer la simulation], [Retour au simulateur], and [Terminer la session].
+  </li>
+</ol>
 
+<p><span id="refheading87591112820228" name="refheading87591112820228" class="odt-bookmark-anchor"></span></p>
+<h2 id="125-use-cases-for-the-application">12.5. <span style="color: #4f81bd">Use cases for the application</span></h2>
+<p><span id="refheading87599112820228" name="refheading87599112820228" class="odt-bookmark-anchor"></span></p>
+<h3 id="1251-displaying-the-home-page">12.5.1. <span style="color: #4f81bd">Displaying the home page</span></h3>
+<p>The home page is the following [saisie.xhtml] page:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;?xml version=&#x27;1.0&#x27; encoding=&#x27;UTF-8&#x27; ?&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">html</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/1999/xhtml&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#7f007f">xmlns:h</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/jsf/html&quot;</span></span></span>
@@ -1755,22 +1733,15 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>This code displays the following view:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000023D0000011475275894.png" width="401" height="193" style="display:inline-block; margin:4px;width:10.61cm;height:5.112cm;" class="odt-zoomable" data-zoom-src="images/100000000000023D0000011475275894.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<ul>
+  <li>line 8: it is displayed within the page [layout.xhtml],
+  </li>
+  <li>line 9: in place of the fragment named <b>part1</b>. In this fragment, the page [saisie2.xhtml] is displayed:
+  </li>
+</ul>
 
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: Complete line 13 of the XHTML code. The list of items in the employee combo box is provided by a method of the [Form] bean. Write this method. The items displayed in the combo box will have their <strong>itemValue</strong> property set to an employee’s social security number, and the <strong>itemLabel</strong> property will be a string consisting of the employee’s first and last names.</p>
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: How should the [SessionData] bean be initialized so that, during the initial GET request made to the form, the header menu is the one shown above?</p>
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
-
-<p><a id="refheading87603112820228"></a>
-<a id="action-fairesimulation-monopage-1"></a></p>
-<h3 id="1252-the-fairesimulation-action">12.5.2. <span style="color: #4f81bd">The [ faireSimulation] action</span></h3>
-<p>The JSF code for the [runSimulation] action is as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;?xml version=&#x27;1.0&#x27; encoding=&#x27;UTF-8&#x27; ?&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">html</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/1999/xhtml&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#7f007f">xmlns:h</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/jsf/html&quot;</span></span></span>
@@ -1798,36 +1769,34 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>The [faireSimulation] action calculates a pay stub:</p>
-<p><img src="images/10000000000001BF000000BDF7361DEA.png" width="313" height="132" style="width:8.28cm;height:3.501cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001BF000000BDF7361DEA.png" /></p>
-<p>From the previous page, we obtain the following result:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000054900000277827FBEAA.png" width="677" height="316" style="display:inline-block; margin:4px;width:17.9cm;height:8.348cm;" class="odt-zoomable" data-zoom-src="images/100000000000054900000277827FBEAA.png" /></td></tr></table>
+<p>This code displays the following view:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000023D0000011475275894.png" width="401" height="193" style="display:inline-block; margin:4px;width:10.61cm;height:5.112cm;" class="odt-zoomable" data-zoom-src="images/100000000000023D0000011475275894.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005390000012023438691.png" width="669" height="144" style="display:inline-block; margin:4px;width:17.688cm;height:3.81cm;" class="odt-zoomable" data-zoom-src="images/10000000000005390000012023438691.png" /></td></tr></table>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
+<p><strong>Question</strong>: Complete line 13 of the XHTML code. The list of items in the employee combo box is provided by a method of the [Form] bean. Write this method. The items displayed in the combo box will have their <strong>itemValue</strong> property set to the SS ID of an employee, and the <strong>itemLabel</strong> property will be a string consisting of the employee’s first and last names.</p>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
+<p><strong>Question</strong>: How should the [SessionData] bean be initialized so that, when the initial GET request is made to the form, the header menu is the one shown above?</p>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p>The simulation is displayed on the following [simulation.xhtml] page:</p>
+<p><span id="refheading87603112820228" name="refheading87603112820228" class="odt-bookmark-anchor"></span>
+<span id="action-fairesimulation-monopage-1" name="action-fairesimulation-monopage-1" class="odt-bookmark-anchor"></span></p>
+<h3 id="1252-the-action-fairesimulation">12.5.2. <span style="color: #4f81bd">The action [faireSimulation]</span></h3>
+<p>The code JSF for the action [faireSimulation] is as follows:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:commandLink</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdFaireSimulation&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.faireSimulation&#x27;]}&quot;</span> <span style="color:#7f007f">action</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.faireSimulation}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menuFaireSimulationIsRendered}&quot;</span><span style="color:#008080">/&gt;</span></span></span>
 </code></pre></div>
 
-<ul>
-  <li>Line 8: the [simulation.xhtml] page is inserted into the [layout.xhtml] page,
-  </li>
-  <li>lines 9–11: the input area is displayed in the <b>part1</b> fragment of the <b>layout</b> page,
-  </li>
-  <li>lines 12–91: the simulation is displayed in the <b>part2</b> fragment of the <b>layout</b> page.
-  </li>
-</ul>
+<p>The [faireSimulation] action calculates a pay stub:</p>
+<p><img src="images/10000000000001BF000000BDF7361DEA.png" width="313" height="132" style="width:8.28cm;height:3.501cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001BF000000BDF7361DEA.png" /></p>
+<p>From the previous page, we obtain the following result:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000054900000277827FBEAA.png" width="677" height="316" style="display:inline-block; margin:4px;width:17.9cm;height:8.348cm;" class="odt-zoomable" data-zoom-src="images/100000000000054900000277827FBEAA.png" /></td></tr></table>
 
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: Write the [doSimulation] method for the [Form] class. The simulation will be saved in the <strong>SessionData</strong> bean.</p>
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005390000012023438691.png" width="669" height="144" style="display:inline-block; margin:4px;width:17.688cm;height:3.81cm;" class="odt-zoomable" data-zoom-src="images/10000000000005390000012023438691.png" /></td></tr></table>
 
-<p><a id="refheading87617112820228"></a></p>
-<h3 id="1253-error-handling">12.5.3. <span style="color: #4f81bd">Error Handling</span></h3>
-<p>We want to be able to properly handle exceptions that may occur during the calculation of a simulation. To do this, the code for the [runSimulation] method will use a try/catch block:</p>
+<p>The simulation is displayed on the following [simulation.xhtml] page:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;?xml version=&#x27;1.0&#x27; encoding=&#x27;UTF-8&#x27; ?&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">html</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/1999/xhtml&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#7f007f">xmlns:h</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/jsf/html&quot;</span></span></span>
@@ -1923,58 +1892,58 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>The list of errors created on line 15 is as follows:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// action du menu</span></span></span>
+<ul>
+  <li>Line 8: The page [simulation.xhtml] is inserted into the page [layout.xhtml],
+  </li>
+  <li>lines 9–11: the input area is displayed in the <b>part1</b> fragment of the <b>layout</b> page,
+  </li>
+  <li>lines 12–91: the simulation is displayed in the <b>part2</b> fragment of the <b>layout</b> page.
+  </li>
+</ul>
+
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
+<p><strong>Question</strong>: Write the method [faireSimulation] of the class [Form]. The simulation will be saved in the bean <strong>SessionData</strong>.</p>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
+
+<p><span id="refheading87617112820228" name="refheading87617112820228" class="odt-bookmark-anchor"></span></p>
+<h3 id="1253-error-handling">12.5.3. <span style="color: #4f81bd">Error Handling</span></h3>
+<p>We want to be able to properly handle exceptions that may occur during the calculation of a simulation. To do this, the code for the [faireSimulation] method will use a try/catch block:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// menu action</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String faireSimulation(){</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">try</span><span style="color:#000000">{</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// on calcule la feuille de salaire</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// we calculate the payslip</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      feuilleSalaire= ...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// on affiche la simulation</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// simulation is displayed</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      ...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// on met à jour le menu</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// update the menu</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      ...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">      // on rend la vue simulation</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">       // render the simulation view</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      return &quot;simulation&quot;;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    }</span><span style="font-weight:bold;color:#7f0055">catch</span><span style="color:#000000">(Throwable th){</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// on vide la liste des erreurs précédentes</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// clear the list of previous errors</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      ...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// on crée la nouvelle liste des erreurs</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// create a new error list</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      ...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// on affiche la vue vueErreur</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// view vueErreur is displayed</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      ...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// on met à jour le menu</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#000000">// update the menu</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      ...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">      // on affiche la vue erreur</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">       // the error view is displayed</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      return &quot;erreurs&quot;;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>The <strong>Error</strong> class is defined as follows:</p>
+<p>The list of errors created on line 15 is as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// le modèle des vues</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// the view model</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  ...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> List&lt;Erreur&gt; erreurs=</span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> ArrayList&lt;Erreur&gt;();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 </code></pre></div>
 
-<p>Errors will be exceptions whose class name is stored in the <strong>class</strong> field and whose message is stored in the <strong>message</strong> field.</p>
-<p>The list of errors constructed in the [faireSimulation] method consists of:</p>
-<ul>
-  <li>the initial exception <b>th </b>of type <i>Throwable </i>that occurred,
-  </li>
-  <li>its cause <b>th.getCause() </b>if it has one,
-  </li>
-  <li>the cause of the cause <b>h.getCause().getCause() </b>if it exists.
-  </li>
-  <li>...
-  </li>
-</ul>
-
-<p>Here is an example of an error list:</p>
-<p><img src="images/10000000000001B7000000B18985D8D2.png" width="309" height="124" style="width:8.17cm;height:3.293cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B7000000B18985D8D2.png" /></p>
-<p>Above, the employee [Z Y] does not exist in the employee dictionary used by the simulated [business] layer. In this case, the simulated [business] layer throws an exception (line 6 below):</p>
+<p>The <strong>Error</strong> class is defined as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> web.entities;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -1998,10 +1967,23 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>The result is as follows:</p>
-<p><img src="images/10000000000001B3000000E63053640F.png" width="305" height="161" style="width:8.059cm;height:4.262cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B3000000E63053640F.png" /></p>
-<p>This view is displayed by the following [errors.xhtml] page:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
+<p>Errors will be exceptions whose class name is stored in the <strong>class</strong> field and whose message is stored in the <strong>message</strong> field.</p>
+<p>The list of errors constructed in the [faireSimulation] method consists of:</p>
+<ul>
+  <li>the initial exception <b>th </b>of type <i>Throwable </i>that occurred,
+  </li>
+  <li>its cause <b>th.getCause() </b>if it has one,
+  </li>
+  <li>the cause of the cause <b>h.getCause().getCause() </b>if it exists.
+  </li>
+  <li>...
+  </li>
+</ul>
+
+<p>Here is an example of an error list:</p>
+<p><img src="images/10000000000001B7000000B18985D8D2.png" width="309" height="124" style="width:8.17cm;height:3.293cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B7000000B18985D8D2.png" /></p>
+<p>Above, the employee [Z Y] does not exist in the employee dictionary used by the simulated layer [métier]. In this case, the simulated layer [métier] throws an exception (line 6 below):</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-bash">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> FeuilleSalaire calculerFeuilleSalaire(String SS, </span><span style="font-weight:bold;color:#7f0055">double</span><span style="color:#000000"> nbHeuresTravaillées, </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> nbJoursTravaillés) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// we get the employee</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    Employe e=hashEmployes.get(SS);</span></span>
@@ -2013,19 +1995,11 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: Complete the [faireSimulation] method so that, in the event of an exception, it displays the [vueErreur] view.</p>
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
-
-<p><a id="refheading87605112820228"></a>
-<a id="action-effacersimulation-monopage-1"></a></p>
-<h3 id="1254-the-action-effacersimulation">12.5.4. <span style="color: #4f81bd">The action [ effacerSimulation]</span></h3>
-<p>The [clearSimulation] action allows the user to return to an empty form:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005370000014618D71245.png" width="668" height="163" style="display:inline-block; margin:4px;width:17.662cm;height:4.313cm;" class="odt-zoomable" data-zoom-src="images/10000000000005370000014618D71245.png" /></td></tr></table>
-
-<p>The JSF code for the [clearSimulation] link is as follows:</p>
+<p>The result is as follows:</p>
+<p><img src="images/10000000000001B3000000E63053640F.png" width="305" height="161" style="width:8.059cm;height:4.262cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B3000000E63053640F.png" /></p>
+<p>This view is displayed by the following page: [erreurs.xhtml]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;?xml version=&#x27;1.0&#x27; encoding=&#x27;UTF-8&#x27; ?&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">html</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/1999/xhtml&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#7f007f">xmlns:h</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/jsf/html&quot;</span></span></span>
@@ -2058,20 +2032,22 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>Clicking the [ClearSimulation] link first triggers a call to the JavaScript function <em>raz</em>(). This method is defined in the [layout.xhtml] page:</p>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
+<p><strong>Question</strong>: Modify the [faireSimulation] method so that, in the event of an exception, it displays the [vueErreur] view.</p>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
+
+<p><span id="refheading87605112820228" name="refheading87605112820228" class="odt-bookmark-anchor"></span>
+<span id="action-effacersimulation-monopage-1" name="action-effacersimulation-monopage-1" class="odt-bookmark-anchor"></span></p>
+<h3 id="1254-the-effacersimulation-action">12.5.4. <span style="color: #4f81bd">The [effacerSimulation] action</span></h3>
+<p>The [effacerSimulation] action allows the user to retrieve an empty form:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005370000014618D71245.png" width="668" height="163" style="display:inline-block; margin:4px;width:17.662cm;height:4.313cm;" class="odt-zoomable" data-zoom-src="images/10000000000005370000014618D71245.png" /></td></tr></table>
+
+<p>The code JSF for the link [effacerSimulation] is as follows:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:commandLink</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdEffacerSimulation&quot;</span>  <span style="color:#7f007f">onclick</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;raz()&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.effacerSimulation&#x27;]}&quot;</span> <span style="color:#7f007f">action</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.effacerSimulation}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menuEffacerSimulationIsRendered}&quot;</span><span style="color:#008080">/&gt;</span></span></span>
 </code></pre></div>
 
-<p>Lines 4–6 change the posted values. Note that </p>
-<ul>
-  <li>the posted values are valid, i.e., they will pass  the validation checks for the <i>hoursWorked </i>and <i>daysWorked </i>input fields.
-  </li>
-  <li>The <i>`raz`</i> function does not submit the form. Instead, the form will be submitted via the <i>`cmdEffacerSimulation` </i>link. This <i>submission </i>will occur after the JavaScript `<i>raz` </i>function has executed.
-  </li>
-</ul>
-
-<p>During the <em>submission</em>, the submitted values will follow the normal process: validation, then assignment to the model fields. These are as follows in the [Form] class:</p>
+<p>Clicking the link [EffacerSimulation] first triggers a call to the function Javascript <em>raz</em>(). This method is defined in the page [layout.xhtml]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-javascript">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">      </span><span style="font-weight:bold;color:#7f0055">function</span><span style="color:#000000"> raz(){</span></span></span>
@@ -2081,15 +2057,28 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        document.forms[</span><span style="color:#2a00ff">&#x27;formulaire&#x27;</span><span style="color:#000000">].elements[</span><span style="color:#2a00ff">&#x27;formulaire:joursTravailles&#x27;</span><span style="color:#000000">].value=</span><span style="color:#2a00ff">&quot;0&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
+</code></pre></div>
+
+<p>Lines 4–6 change the posted values. Note that </p>
+<ol>
+  <li>the posted values are valid, c.a.d. they will pass  the validation tests for the input fields <i>heuresTravaillees </i>and <i>joursTravailles</i>.
+  </li>
+  <li>the <i>&quot;raz&quot;</i> function does not submit the form. In fact, the form will be submitted via the link <i>cmdEffacerSimulation</i>. This <i>post </i>will occur after the <i>&quot;raz&quot;</i> function (Javascript) has been executed.
+  </li>
+</ol>
+
+<p>During the execution of <em>post</em>, the posted values will follow the normal flow: validation, then assignment to the model fields. These are as follows in the [Form] class:</p>
+<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// the view model</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> String </span><span style="color:#0000c0">comboEmployesValue</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> String </span><span style="color:#0000c0">heuresTravaillées</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> String </span><span style="color:#0000c0">joursTravaillés</span><span style="color:#000000">;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000"> </span> ...</span></span>
 </code></pre></div>
 
-<p>These three fields will receive the three posted values {&quot;0&quot;, &quot;0&quot;, &quot;0&quot;}. Once this assignment is complete, the <em>clearSimulation</em> method will be executed.</p>
+<p>These three fields will receive the three posted values {&quot;0&quot;, &quot;0&quot;, &quot;0&quot;}. Once this assignment is complete, the <em>effacerSimulation</em> method will be executed.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: Write the [effacerSimulation] method for the [Form] class. Ensure that:</p>
+<p><strong>Question</strong>: Write the method [effacerSimulation] for the class [Form]. Ensure that:</p>
 <ul>
 <li>
 <p>only the input field is displayed,</p>
@@ -2098,46 +2087,25 @@
 <p>the combo box is set to its first item,</p>
 </li>
 <li>
-<p>the <em>hoursWorked</em> and <em>daysWorked</em> input fields display empty strings.</p>
+<p>the input fields <em>heuresTravaillees</em> and <em>joursTravailles</em> display empty strings.</p>
 </li>
 </ul>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading87607112820228"></a>
-<a id="action-enregistrersimulation-monopage-1"></a></p>
-<h3 id="1255-the-enregistrersimulation-action">12.5.5. <span style="color: #4f81bd">The [ enregistrerSimulation] action</span></h3>
-<p>The JSF code for the [saveSimulation] link is as follows:</p>
-<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000"> </span> ...</span></span>
-</code></pre></div>
-
-<p>The [saveSimulation] action associated with the link saves the current simulation to a list of simulations maintained in the [SessionData] class:</p>
+<p><span id="refheading87607112820228" name="refheading87607112820228" class="odt-bookmark-anchor"></span>
+<span id="action-enregistrersimulation-monopage-1" name="action-enregistrersimulation-monopage-1" class="odt-bookmark-anchor"></span></p>
+<h3 id="1255-the-enregistrersimulation-action">12.5.5. <span style="color: #4f81bd">The [enregistrerSimulation] action</span></h3>
+<p>The code JSF for the link [enregistrerSimulation] is as follows:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:commandLink</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdEnregistrerSimulation&quot;</span> <span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.enregistrerSimulation&#x27;]}&quot;</span> <span style="color:#7f007f">action</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.enregistrerSimulation}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menuEnregistrerSimulationIsRendered}&quot;</span><span style="color:#008080">/&gt;</span></span></span>
 </code></pre></div>
 
-<p>The <strong>Simulation</strong> class <strong>in</strong> the web.<strong>entities</strong><a id="classe-simulation"></a> is as follows:</p>
+<p>The action [enregistrerSimulation] associated with the link allows the current simulation to be saved in a list of simulations maintained in the class [SessionData]:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> List&lt;Simulation&gt; simulations=</span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> ArrayList&lt;Simulation&gt;();</span></span></span>
 </code></pre></div>
 
-<p>This class allows you to save a simulation created by the user:</p>
-<ul>
-  <li>line 11: the simulation number,
-  </li>
-  <li>line 12: the payslip that was calculated,
-  </li>
-  <li>line 13: the number of hours worked,
-  </li>
-  <li>line 14: the number of days worked.
-  </li>
-</ul>
-
-<p>Here is an example of a record:</p>
-<p><img src="images/10000000000001CB000001432BAB5A77.png" width="321" height="226" style="width:8.5cm;height:5.981cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001CB000001432BAB5A77.png" /></p>
-<p>From the previous page, we get the following result:</p>
-<p><img src="images/1000000000000271000000C731BC79CF.png" width="437" height="139" style="width:11.569cm;height:3.685cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000271000000C731BC79CF.png" /></p>
-<p>The simulation number is incremented with each new record. It belongs to the <strong>SessionData</strong> bean:</p>
+<p>The <strong>Simulation</strong><span id="classe-simulation" name="classe-simulation" class="odt-bookmark-anchor"></span> class is as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> web.entities;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -2171,12 +2139,36 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
+<p>This class allows you to save a simulation created by the user:</p>
 <ul>
-  <li>Line 2: the number of the last simulation performed.
+  <li>line 11: the simulation number,
+  </li>
+  <li>line 12: the payslip that was calculated,
+  </li>
+  <li>line 13: the number of hours worked,
+  </li>
+  <li>line 14: the number of days worked.
   </li>
 </ul>
 
-<p>The [saveSimulation] method can proceed as follows:</p>
+<p>Here is an example of a record:</p>
+<p><img src="images/10000000000001CB000001432BAB5A77.png" width="321" height="226" style="width:8.5cm;height:5.981cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001CB000001432BAB5A77.png" /></p>
+<p>From the previous page, we obtain the following result:</p>
+<p><img src="images/1000000000000271000000C731BC79CF.png" width="437" height="139" style="width:11.569cm;height:3.685cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000271000000C731BC79CF.png" /></p>
+<p>The simulation number is incremented with each new record. It belongs to the <strong>SessionData</strong> bean:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// simulations</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> List&lt;Simulation&gt; simulations = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> ArrayList&lt;Simulation&gt;();</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> numDerniereSimulation = 0;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> Simulation simulation;</span></span></span>
+</code></pre></div>
+
+<ul>
+  <li>line 2: the number of the last simulation performed.
+  </li>
+</ul>
+
+<p>The [enregistrerSimulation] method can proceed as follows:</p>
 <ul>
   <li>retrieve the number of the last simulation from the [SessionData] bean and increment it,
   </li>
@@ -2186,25 +2178,9 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000041700000147F2E4F9A0.png" width="524" height="164" style="display:inline-block; margin:4px;width:13.852cm;height:4.327cm;" class="odt-zoomable" data-zoom-src="images/100000000000041700000147F2E4F9A0.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000041700000147F2E4F9A0.png" width="524" height="164" style="display:inline-block; margin:4px;width:13.852cm;height:4.327cm;" class="odt-zoomable" data-zoom-src="images/100000000000041700000147F2E4F9A0.png" /></td></tr></table>
 
 <p>The simulation table is displayed by the [simulations.xhtml] page:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// simulations</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> List&lt;Simulation&gt; simulations = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> ArrayList&lt;Simulation&gt;();</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> numDerniereSimulation = 0;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> Simulation simulation;</span></span></span>
-</code></pre></div>
-
-<ul>
-  <li>line 8, the page [simulations.xhtml] is inserted inside the page [layout.xhtml],
-  </li>
-  <li>line 9, in place of the fragment named <b>part1</b>,
-  </li>
-  <li>line 11, the &lt;<b>h:dataTable</b>&gt; tag uses the field #{sessionData.simulations} as its data source, i.e., the following field:
-  </li>
-</ul>
-
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -2284,36 +2260,34 @@
 </code></pre></div>
 
 <ul>
-<li>
-<p>The <strong>var=&quot;simulation&quot;</strong> attribute sets the name of the variable representing the current simulation within the &lt;<strong>h:datatable</strong>&gt; tag</p>
-</li>
-<li>
-<p>The <strong>headerClass=&quot;simulationsHeaders&quot;</strong> attribute sets the style of the table column headers.</p>
-</li>
-<li>
-<p>The <strong>columnClasses=&quot;....&quot;</strong> attribute sets the style of each column in the table</p>
-</li>
+  <li>On line 8, the page [simulations.xhtml] is inserted inside the page [layout.xhtml],
+  </li>
+  <li>line 9, in place of the fragment named <b>part1</b>,
+  </li>
+  <li>line 11, the &lt;<b>h:dataTable</b>&gt; tag uses the field #{sessionData.simulations} as its data source, c.a.d. the following field:
+  </li>
 </ul>
-<p>Let’s examine one of the table columns and see how it is constructed:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000038000000147EDF0EFD4.png" width="448" height="164" style="display:inline-block; margin:4px;width:11.853cm;height:4.327cm;" class="odt-zoomable" data-zoom-src="images/100000000000038000000147EDF0EFD4.png" /></td></tr></table>
 
-<p>The JSF code for the <em>Name</em> column is as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// simulations</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> List&lt;Simulation&gt; simulations;</span></span></span>
 </code></pre></div>
 
 <ul>
-  <li>Lines 2–4: The &lt;<b>f:facet name=&quot;header&quot;</b>&gt; tag defines the column header
-  </li>
-  <li>line 5: the employee&#x27;s name is written:
-    <ul>
-      <li><b>simulation </b>refers to the <b>var</b> attribute of the &lt;<b>h:dataTable </b>...&gt; tag:
-      </li>
-    </ul>
-  </li>
+<li>
+<p>the <strong>var=&quot;simulation&quot;</strong> attribute sets the name of the variable representing the current simulation within the &lt;<strong>h:datatable</strong>&gt; tag</p>
+</li>
+<li>
+<p>the attribute <strong>headerClass=&quot;simulationsHeaders&quot;</strong> sets the style of the table column headers.</p>
+</li>
+<li>
+<p>The attribute <strong>columnClasses=&quot;....&quot;</strong> sets the style of each column in the table</p>
+</li>
 </ul>
+<p>Let’s examine one of the table columns and see how it is constructed:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000038000000147EDF0EFD4.png" width="448" height="164" style="display:inline-block; margin:4px;width:11.853cm;height:4.327cm;" class="odt-zoomable" data-zoom-src="images/100000000000038000000147EDF0EFD4.png" /></td></tr></table>
 
+<p>The code JSF for the <em>Name</em> column is as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:column</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">              </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">f:facet </span><span style="color:#7f007f">name</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;header&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -2323,34 +2297,36 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">h:column</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p><strong>simulation</strong> refers to the current simulation in the list of simulations: first the 1st, then the 2nd, …</p>
-<ul>
-  <li>(continued)
-    <ul>
-      <li><b>simulation.payroll </b>refers to the <b>payroll</b> field of the current simulation
-      </li>
-      <li><b>simulation.payroll.employee </b>refers to the <b>employee</b> field within the <b>payroll</b> field
-      </li>
-      <li><b>simulation.payroll.employee.name </b>refers to the <b>name</b> field of the <b>employee</b> field
-      </li>
-    </ul>
+<ol>
+  <li>lines 2-4: the &lt;<b>f:facet name=&quot;header&quot;</b>&gt; tag defines the column header
   </li>
-</ul>
+  <li>line 5: the employee&#x27;s name is written:
+    <ol>
+      <li><b>simulation </b>refers to the <b>var</b> attribute of the &lt;<b>h:dataTable </b>...&gt; tag:
+      </li>
+    </ol>
+  </li>
+</ol>
 
-<p>The same technique is repeated for all columns in the table. There is an issue with the <strong>Allowances</strong> column, which is generated using the following code:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:dataTable </span><span style="color:#7f007f">value</span><span style="color:#000000">=</span>&quot;#{sessionData.simulations}&quot;<span style="color:#000000"> </span><span style="color:#7f007f">var</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;simulation&quot; ...&gt;</span></span></span>
 </code></pre></div>
 
-<p>On line 5, the value of <strong>simulation.indemnites</strong> is displayed. However, the <strong>Simulation</strong> class does not have an <strong>indemnites</strong> field. It is important to remember here that the <strong>indemnites</strong> field is not used directly but via the <strong>simulation.getIndemnites()</strong> method. Therefore, it is sufficient for this method to exist. The <em>indemnites</em> field itself may not exist. The <strong>getIndemnites</strong> method must return the total of the employee’s allowances. This requires an intermediate calculation because this total is not directly available in the pay stub. The <strong>getIndemnites</strong> method is provided in Section<a href="#classe-simulation"><u><span style="color: #0563c1"> 12.5.5</span></u></a>.</p>
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: Write the [enregistrerSimulation] method for the [Form] class.</p>
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
+<p><strong>simulation</strong> refers to the current simulation in the list of simulations: first the 1st, then the 2nd, …</p>
+<ul>
+  <li>(continued)
+    <ol>
+      <li><b>simulation.feuilleSalaire </b>refers to the <b>feuilleSalaire</b> field of the current simulation
+      </li>
+      <li><b>simulation.feuilleSalaire.employe </b>refers to the <b>employee</b> field of the <b>feuilleSalaire</b> field
+      </li>
+      <li><b>simulation.feuilleSalaire.employe.nom </b>refers to the &quot;<b>name&quot; </b>field of the &quot;<b>employee&quot; </b>field
+      </li>
+    </ol>
+  </li>
+</ul>
 
-<p><a id="refheading87609112820228"></a>
-<a id="action-retoursimulateur-monopage-1"></a></p>
-<h3 id="1256-the-action-retoursimulateur">12.5.6. <span style="color: #4f81bd">The action [ retourSimulateur]</span></h3>
-<p>The JSF code for the [retourSimulateur] link is as follows:</p>
+<p>The same technique is repeated for all columns in the table. There is an issue with the <strong>Indemnities</strong> column, which is generated using the following code:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:column</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">              </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">f:facet </span><span style="color:#7f007f">name</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;header&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -2360,47 +2336,46 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">h:column</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>The [returnSimulator] action associated with the link allows the user to return from the [simulationsView] to the [inputsView]:</p>
-<p><img src="images/1000000000000274000000DC568AE838.png" width="440" height="154" style="width:11.629cm;height:4.075cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000274000000DC568AE838.png" /></p>
-<p>The result obtained:</p>
-<p><img src="images/10000000000001B9000000B51A15FCA0.png" width="309" height="127" style="width:8.17cm;height:3.353cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B9000000B51A15FCA0.png" /></p>
+<p>Line 5 displays the value of <strong>simulation.indemnites</strong>. However, the <strong>Simulation</strong> class does not have a field named <strong>indemnites</strong>. It is important to note here that the field <strong>indemnites</strong> is not used directly but via the method <strong>simulation.getIndemnites()</strong>. Therefore, it is sufficient for this method to exist. The field <em>indemnites,</em> on the other hand, may not exist. The method <strong>getIndemnites</strong> must return the total of the employee’s allowances. This requires an intermediate calculation because this total is not directly available in the pay slip. The method <strong>getIndemnites</strong> is provided in Section<a href="#classe-simulation"><u><span style="color: #0563c1"> 12.5.5</span></u></a>.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: Write the [retourSimulateur] method for the [Form] class. The input form shown must be empty, as above.</p>
+<p><strong>Question</strong>: Write method [enregistrerSimulation] for class [Form].</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading87611112820228"></a></p>
-<h3 id="1257-the-viewsimulations-action">12.5.7. <span style="color: #4f81bd">The [viewSimulations] action</span></h3>
-<p>The JSF code for the [viewSimulations] link is as follows:</p>
+<p><span id="refheading87609112820228" name="refheading87609112820228" class="odt-bookmark-anchor"></span>
+<span id="action-retoursimulateur-monopage-1" name="action-retoursimulateur-monopage-1" class="odt-bookmark-anchor"></span></p>
+<h3 id="1256-action-retoursimulateur">12.5.6. <span style="color: #4f81bd">Action [retourSimulateur]</span></h3>
+<p>The code JSF for the link [retourSimulateur] is as follows:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:commandLink</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdRetourSimulateur&quot;</span> <span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.retourSimulateur&#x27;]}&quot;</span> <span style="color:#7f007f">action</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.retourSimulateur}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menuRetourSimulateurIsRendered}&quot;</span><span style="color:#008080">/&gt;</span></span></span>
 </code></pre></div>
 
-<p>The [viewSimulations] action associated with the link allows the user to view the table of simulations, regardless of the status of their entries:</p>
-<p><img src="images/10000000000001BE000000CA5B540A66.png" width="312" height="141" style="width:8.26cm;height:3.741cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001BE000000CA5B540A66.png" /></p>
+<p>The action [retourSimulateur] associated with the link allows the user to return from view [vueSimulations] to view [vueSaisies]:</p>
+<p><img src="images/1000000000000274000000DC568AE838.png" width="440" height="154" style="width:11.629cm;height:4.075cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000274000000DC568AE838.png" /></p>
 <p>The result obtained:</p>
-<p><img src="images/1000000000000274000000DEDAB96116.png" width="440" height="155" style="width:11.629cm;height:4.112cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000274000000DEDAB96116.png" /></p>
+<p><img src="images/10000000000001B9000000B51A15FCA0.png" width="309" height="127" style="width:8.17cm;height:3.353cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B9000000B51A15FCA0.png" /></p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: Write the [viewSimulations] method for the [Form] class.</p>
+<p><strong>Question</strong>: Write the [retourSimulateur] method of the [Form] class. The input form shown must be empty, as above.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
-<p><span style="color: #000000">We will ensure that if the list of simulations is empty, the view displayed is [vueSimulationsVides]:</span></p>
-<p><img src="images/10000000000001B600000091FFAA6018.png" width="307" height="101" style="width:8.11cm;height:2.685cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B600000091FFAA6018.png" /></p>
-<p>To display the view above, we will use the following [simulationsVides.xhtml] page:</p>
+
+<p><span id="refheading87611112820228" name="refheading87611112820228" class="odt-bookmark-anchor"></span></p>
+<h3 id="1257-the-action-voirsimulations">12.5.7. <span style="color: #4f81bd">The action [voirSimulations]</span></h3>
+<p>The code JSF for the link [voirSimulations] is as follows:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:commandLink</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdVoirSimulations&quot;</span> <span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.voirSimulations&#x27;]}&quot;</span> <span style="color:#7f007f">action</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.voirSimulations}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menuVoirSimulationsIsRendered}&quot;</span><span style="color:#008080">/&gt;</span></span></span>
 </code></pre></div>
 
-<p><a id="refheading87613112820228"></a>
-<a id="action-retirersimulation-multipages-1"></a></p>
-<h3 id="1258-the-removesimulation-action">12.5.8. <span style="color: #4f81bd">The [ removeSimulation] action</span></h3>
-<p>The user can remove simulations from their list:</p>
-<p><img src="images/1000000000000271000000DBD88A527F.png" width="440" height="154" style="width:11.629cm;height:4.075cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000271000000DBD88A527F.png" /></p>
-<p><span style="color: #000000">The result is as follows:</span></p>
-<p><img src="images/1000000000000272000000C3FD765F60.png" width="440" height="137" style="width:11.629cm;height:3.621cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000272000000C3FD765F60.png" /></p>
-<p><span style="color: #000000">If we remove the last simulation above, we will get the following result:</span></p>
-<p><img src="images/10000000000001B70000008F3625068B.png" width="307" height="100" style="width:8.13cm;height:2.648cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B70000008F3625068B.png" /></p>
-<p><span style="color: #000000">The JSF code for the [Remove] column in the simulation table is as follows:</span></p>
+<p>The action [voirSimulations] associated with the link allows the user to view the simulation table, regardless of the status of their entries:</p>
+<p><img src="images/10000000000001BE000000CA5B540A66.png" width="312" height="141" style="width:8.26cm;height:3.741cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001BE000000CA5B540A66.png" /></p>
+<p>The result obtained:</p>
+<p><img src="images/1000000000000274000000DEDAB96116.png" width="440" height="155" style="width:11.629cm;height:4.112cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000274000000DEDAB96116.png" /></p>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
+<p><strong>Question</strong>: Write the [voirSimulations] method of the [Form] class.</p>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
+<p><span style="color: #000000">We will ensure that if the list of simulations is empty, the view displayed is [vueSimulationsVides]:</span></p>
+<p><img src="images/10000000000001B600000091FFAA6018.png" width="307" height="101" style="width:8.11cm;height:2.685cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B600000091FFAA6018.png" /></p>
+<p>To display the view above, we will use the following [simulationsVides.xhtml] page:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;?xml version=&#x27;1.0&#x27; encoding=&#x27;UTF-8&#x27; ?&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">html</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/1999/xhtml&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#7f007f">xmlns:h</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/jsf/html&quot;</span></span></span>
@@ -2415,11 +2390,16 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<ul>
-  <li><span style="color: #000000">Line 5: The [Remove] link is associated with the [removeSimulation] method of the [Form] class. This method needs to know the number of the simulation to be removed. This is provided by the </span>&lt;f<b>:setPropertyActionListener</b>&gt; <span style="color: #000000">tag </span>on line 8. This tag has two attributes, <b>target </b>and <b>value</b>: <span style="color: #000000">the </span><b>target</b><span style="color: #000000"> attribute specifies a field in the model to which the value of the </span><b>value</b><span style="color: #000000"> attribute will be assigned. Here, the number of the simulation to be removed, </span><b>#{simulation.num}, </b><span style="color: #000000">will be assigned to the </span><b>numSimulationToDelete</b><span style="color: #000000"> field of the [Form] class:</span>
-  </li>
-</ul>
-
+<p><span id="refheading87613112820228" name="refheading87613112820228" class="odt-bookmark-anchor"></span>
+<span id="action-retirersimulation-multipages-1" name="action-retirersimulation-multipages-1" class="odt-bookmark-anchor"></span></p>
+<h3 id="1258-action-retirersimulation">12.5.8. <span style="color: #4f81bd">Action [retirerSimulation]</span></h3>
+<p>The user can remove simulations from their list:</p>
+<p><img src="images/1000000000000271000000DBD88A527F.png" width="440" height="154" style="width:11.629cm;height:4.075cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000271000000DBD88A527F.png" /></p>
+<p><span style="color: #000000">The result is as follows:</span></p>
+<p><img src="images/1000000000000272000000C3FD765F60.png" width="440" height="137" style="width:11.629cm;height:3.621cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000272000000C3FD765F60.png" /></p>
+<p><span style="color: #000000">If we remove the last simulation from the list above, we will get the following result:</span></p>
+<p><img src="images/10000000000001B70000008F3625068B.png" width="307" height="100" style="width:8.13cm;height:2.648cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B70000008F3625068B.png" /></p>
+<p><span style="color: #000000">The code JSF in the [Retirer] column of the simulation table is as follows:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-javascript">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">          </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:dataTable </span><span style="color:#7f007f">value</span><span style="color:#000000">=</span>&quot;#{form.simulations}&quot;<span style="color:#000000"> </span><span style="color:#7f007f">var</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;simulation&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#2a00ff">                       </span><span style="color:#7f007f">headerClass</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;simulationsHeaders&quot; </span><span style="color:#7f007f">columnClasses</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;simuNum,simuNom,simuPrenom,simuHT,simuJT,simuSalaireBase,simuIndemnites,simuCotisationsSociales,simuSalaireNet&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -2432,42 +2412,51 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">          </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">h:dataTable</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p><span style="color: #000000">When the [removeSimulation] method of the [Form] class is executed, it will be able to use the value that was previously stored in the </span><strong><span style="color: #000000">numSimulationToDelete</span></strong><span style="color: #000000"> field.</span></p>
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: Write the [retirerSimulation] method of the [Form] class.</p>
-<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
+<ol>
+  <li><span style="color: #000000">Line 5: The link [Retirer] is associated with the method [retirerSimulation] of the class [Form]. This method needs to know the number of the simulation to be removed. This is provided by the </span>&lt;f<b>:setPropertyActionListener</b>&gt; <span style="color: #000000">tag </span>on line 8. This tag has two attributes, <b>target </b>and <b>value</b>: <span style="color: #000000">the </span><b>target</b><span style="color: #000000"> attribute designates a field in the model to which the value of the </span><b>value</b><span style="color: #000000"> attribute will be assigned. Here, the number of the simulation to be removed </span><b>#{simulation.num} </b><span style="color: #000000">will be assigned to the field </span><b> numSimulationToDelete </b><span style="color: #000000">of the class [Form]:</span>
+  </li>
+</ol>
 
-<p><a id="refheading87615112820228"></a>
-<a id="action-terminersession-monopage-1"></a></p>
-<h3 id="1259-the-terminatesession-action">12.5.9. <span style="color: #4f81bd">The [ terminateSession] action</span></h3>
-<p>The JSF code for the [End Session] link is as follows:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-javascript">
 <span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// the view model</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  ...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> Integer </span><span style="color:#0000c0">numSimulationToDelete</span><span style="color:#000000">;</span></span></span>
 </code></pre></div>
 
-<p>The [EndSession] action associated with the link allows the user to end their session and return to the empty input form:</p>
+<p><span style="color: #000000">When the [retirerSimulation] method of the [Form] class is executed, it will be able to use the value previously stored in the </span><strong><span style="color: #000000">numSimulationToDelete</span></strong><span style="color: #000000"> field.</span></p>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
+<p><strong>Question</strong>: Write the [retirerSimulation] method of the [Form] class.</p>
+<hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
+
+<p><span id="refheading87615112820228" name="refheading87615112820228" class="odt-bookmark-anchor"></span>
+<span id="action-terminersession-monopage-1" name="action-terminersession-monopage-1" class="odt-bookmark-anchor"></span></p>
+<h3 id="1259-the-terminersession-action">12.5.9. <span style="color: #4f81bd">The [terminerSession] action</span></h3>
+<p>The code JSF for the link [Terminer la session] is as follows:</p>
+<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:commandLink</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdTerminerSession&quot;</span> <span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.terminerSession&#x27;]}&quot;</span> <span style="color:#7f007f">action</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.terminerSession}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menuTerminerSessionIsRendered}&quot;</span><span style="color:#008080">/&gt;</span></span></span>
+</code></pre></div>
+
+<p>The action [terminerSession] associated with the link allows the user to log out and return to the empty data entry form:</p>
 <p><img src="images/1000000000000271000000DDC1D1ADCA.png" width="437" height="155" style="width:11.569cm;height:4.09cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000271000000DDC1D1ADCA.png" /></p>
 <p><img src="images/10000000000001BB000000B1031B8AAB.png" width="310" height="124" style="width:8.2cm;height:3.276cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001BB000000B1031B8AAB.png" /></p>
 <p>If the user had a list of simulations, it is cleared. Additionally, the simulation numbering resets to 1.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question</strong>: Write the [endSession] method for the [Form] class.</p>
+<p><strong>Question</strong>: Write the [terminerSession] method of the [Form] class.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading87619112820228"></a>
-<a id="jsf-3couches"></a></p>
-<h2 id="126-integration-of-the-web-layer-into-a-3-tier-architecture-jsfejb">12.6. <span style="color: #4f81bd">Integration of the web layer into a 3-tier architecture JSF/EJB</span></h2>
+<p><span id="refheading87619112820228" name="refheading87619112820228" class="odt-bookmark-anchor"></span>
+<span id="jsf-3couches" name="jsf-3couches" class="odt-bookmark-anchor"></span></p>
+<h2 id="126-integration-of-the-web-layer-into-a-3-tier-architecture-jsf-ejb">12.6. <span style="color: #4f81bd"><strong>Integration of the web layer into a 3-tier architecture</strong> <strong>JSF / EJB</strong></span></h2>
 <p>The architecture of the previous web application was as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004280000016305AE9F86.png" width="532" height="177" style="display:inline-block; margin:4px;width:14.076cm;height:4.695cm;" class="odt-zoomable" data-zoom-src="images/10000000000004280000016305AE9F86.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004280000016305AE9F86.png" width="532" height="177" style="display:inline-block; margin:4px;width:14.076cm;height:4.695cm;" class="odt-zoomable" data-zoom-src="images/10000000000004280000016305AE9F86.png" /></td></tr></table>
 
-<p>We replace the simulated [business] layer with the [business, DAO, JPA] layers implemented by EJBs in Section<a href="#serveur-ejb-sunas9"><u><span style="color: #0563c1"> 7.1</span></u></a>:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003FA0000016939B3C7B5.png" width="509" height="181" style="display:inline-block; margin:4px;width:13.467cm;height:4.777cm;" class="odt-zoomable" data-zoom-src="images/10000000000003FA0000016939B3C7B5.png" /></td></tr></table>
+<p>We replace the simulated [métier] layer with the [métier, DAO, jpa] layers implemented by EJB in Section<a href="version-3-porting-the-pam-application-to-a-glassfish-application-server.html#serveur-ejb-sunas9"><u><span style="color: #0563c1"> 7.1</span></u></a>:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003FA0000016939B3C7B5.png" width="509" height="181" style="display:inline-block; margin:4px;width:13.467cm;height:4.777cm;" class="odt-zoomable" data-zoom-src="images/10000000000003FA0000016939B3C7B5.png" /></td></tr></table>
 
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Practical exercise</strong>: Integrate the JSF and EJB layers following the methodology in Section<a href="#integration-jsf-ejb-1"><u><span style="color: #0563c1"> 11</span></u></a>.</p>
+<p><strong>Practical exercise</strong>: Integrate the JSF and EJB layers following the methodology in Section<a href="version-6---integration-of-the-web-layer-into-a-3-tier-architecture-jsf--ejb.html#integration-jsf-ejb-1"><u><span style="color: #0563c1"> 11</span></u></a>.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000015B000000C0E6104953.png" width="243" height="134" style="display:inline-block; margin:4px;width:6.429cm;height:3.558cm;" class="odt-zoomable" data-zoom-src="images/100000000000015B000000C0E6104953.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000015B000000C0E6104953.png" width="243" height="134" style="display:inline-block; margin:4px;width:6.429cm;height:3.558cm;" class="odt-zoomable" data-zoom-src="images/100000000000015B000000C0E6104953.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 
 

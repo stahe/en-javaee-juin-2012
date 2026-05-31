@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="stylesheets/focus.css">
     
+      <link rel="stylesheet" href="stylesheets/bidi.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -394,14 +396,14 @@
   
   
     <li class="md-nav__item">
-      <a href="jpa--an-overview.html" class="md-nav__link">
+      <a href="jpa--a-summary.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. JPA : An Overview
+    4. JPA : A Summary
   
 
     
@@ -421,14 +423,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-1-spring--jpa-architecture.html" class="md-nav__link">
+      <a href="version-1-spring-architecture--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Version 1: Spring / JPA Architecture
+    5. Version 1: Spring Architecture / JPA
   
 
     
@@ -448,14 +450,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-2-openejb--jpa-architecture.html" class="md-nav__link">
+      <a href="version-2-architecture-openejb--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Version 2: OpenEJB / JPA Architecture
+    6. Version 2: Architecture OpenEJB / JPA
   
 
     
@@ -482,7 +484,7 @@
   <span class="md-ellipsis">
     
   
-    7. Version 3: Porting the PAM application to a GlassFish application server
+    7. Version 3: Porting the PAM application to a Glassfish application server
   
 
     
@@ -509,7 +511,7 @@
   <span class="md-ellipsis">
     
   
-    8. Version 4 – Client/Server in a Web Service Architecture
+    8. Version 4 – client/server in a web service architecture
   
 
     
@@ -556,14 +558,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-5---pam-web--jsf-application.html" class="md-nav__link">
+      <a href="version-5---pam-web-application--jsf.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. Version 5 - PAM Web / JSF Application
+    10. Version 5 - PAM Web Application / JSF
   
 
     
@@ -583,14 +585,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture.html" class="md-nav__link">
+      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-architecture-jsf--ejb.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture
+    11. Version 6 - Integration of the web layer into a 3-tier architecture JSF / EJB
   
 
     
@@ -610,14 +612,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-7---multi-viewmulti-page-pam-web-application.html" class="md-nav__link">
+      <a href="version-7---pam-multi-view--multi-page-web-application.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. Version 7 - Multi-view/multi-page PAM web application
+    12. Version 7 - PAM multi-view / multi-page web application
   
 
     
@@ -637,14 +639,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-8-porting-the-application-to-a-spring--tomcat-environment.html" class="md-nav__link">
+      <a href="version-8-porting-the-application-to-a-springtomcat-environment.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. Version 8: Porting the application to a Spring / Tomcat environment
+    13. Version 8: Porting the application to a Spring/Tomcat environment
   
 
     
@@ -671,7 +673,7 @@
   <span class="md-ellipsis">
     
   
-    14. Version 9: Implementing the web layer with PrimeFaces
+    14. Version 9: Implementing the Web Layer with Primefaces
   
 
     
@@ -701,73 +703,73 @@
 
 
 
-<p><a id="refheading87347112820228"></a>
-<a id="architecture-en-couches"></a></p>
+<p><span id="architecture-en-couches" name="architecture-en-couches" class="odt-bookmark-anchor"></span>
+<span id="refheading87347112820228" name="refheading87347112820228" class="odt-bookmark-anchor"></span></p>
 <h1 id="2-layered-architecture-of-a-java-application">2. <span style="color: #365f91">Layered Architecture of a Java Application</span></h1>
-<p>A Java application is often divided into layers, each with a well-defined role. Let’s consider a common architecture, the three-tier architecture:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000006E80000011C9BFD876E.png" width="680" height="109" style="display:inline-block; margin:4px;width:17.999cm;height:2.891cm;" class="odt-zoomable" data-zoom-src="images/10000000000006E80000011C9BFD876E.png" /></td></tr></table>
+<p>A Java application is often divided into layers, each with a well-defined role. Let’s consider a common architecture, the three-layer architecture:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000006E80000011C9BFD876E.png" width="680" height="109" style="display:inline-block; margin:4px;width:17.999cm;height:2.891cm;" class="odt-zoomable" data-zoom-src="images/10000000000006E80000011C9BFD876E.png" /></td></tr></table>
 
 <ul>
-  <li>Layer [1], referred to here as [ui] (User Interface), is the layer that interacts with the user via a Swing GUI, a console interface, or a web interface. Its role is to provide data from the user to layer [2] or to present data provided by layer [2] to the user.
+  <li>the [1] layer, referred to here as [ui] (User Interface), is the layer that interacts with the user via a Swing GUI, a console interface, or a web interface. Its role is to provide data from the user to the [2] layer or to present data provided by the [2] layer to the user.
   </li>
-  <li>Layer [2], referred to here as [business], is the layer that applies the so-called business rules—i.e., the application’s specific logic—without concerning itself with where the data it receives comes from or where the results it produces go.
+  <li>The [2] layer, referred to here as [metier], is the layer that applies the so-called business rules, c.a.d. the application-specific logic, without concerning itself with where the data it is given comes from, or where the results it produces go.
   </li>
-  <li>Layer [3], referred to here as [DAO] (Data Access Object), is the layer that provides layer [2] with pre-stored data (files, databases, etc.) and stores some of the results provided by layer [2].
+  <li>The [3] layer, referred to here as [DAO] (Data Access Object), is the layer that provides the [2] layer with pre-stored data (files, databases, ...) and which saves some of the results provided by the [2] layer.
   </li>
 </ul>
 
 <p>There are various ways to implement the [DAO] layer. Let’s examine a few of them:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000074E000001438203730E.png" width="680" height="118" style="display:inline-block; margin:4px;width:17.999cm;height:3.11cm;" class="odt-zoomable" data-zoom-src="images/100000000000074E000001438203730E.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000074E000001438203730E.png" width="680" height="118" style="display:inline-block; margin:4px;width:17.999cm;height:3.11cm;" class="odt-zoomable" data-zoom-src="images/100000000000074E000001438203730E.png" /></td></tr></table>
 
-<p>The [JDBC] layer above is the standard layer used in Java to access databases. It isolates the [DAO] layer from the DBMS that manages the database. Theoretically, one can switch DBMSes without changing the [DAO] layer’s code. Despite this advantage, the JDBC API has certain drawbacks:</p>
+<p>The [JDBC] layer above is the standard layer used in Java to access databases. It isolates the [DAO] layer from the SGBD layer, which manages the database. In theory, you can change the SGBD layer without modifying the code in the [DAO] layer. Despite this advantage, the API and JDBC layers have certain drawbacks:</p>
 <ul>
-  <li>All operations on the DBMS are likely to throw the checked SQLException. This forces the calling code (the [DAO] layer in this case) to wrap them in try/catch blocks, thereby making the code quite verbose.
+  <li>all operations on SGBD are likely to trigger the controlled exception (checked) SQLException. This forces the calling code (the [DAO] layer here) to wrap them in try/catch blocks, making the code quite verbose.
   </li>
-  <li>the [DAO] layer is not completely independent of the DBMS. For example, DBMSs have proprietary methods for automatically generating primary key values that the [DAO] layer cannot ignore. Thus, when inserting a record:
+  <li>The [DAO] layer is not completely independent of SGBD. For example, these have proprietary methods for the automatic generation of primary key values that the [DAO] layer cannot ignore. Thus, when inserting a record:
     <ul>
-      <li>With Oracle, the [DAO] layer must first obtain a value for the record’s primary key and then insert the record.
+      <li>with Oracle, the [DAO] layer must first obtain a value for the record’s primary key and then insert the record.
       </li>
-      <li>With SQL Server, the [DAO] layer inserts the record, which is automatically assigned a primary key value by the DBMS, a value returned to the [DAO] layer.
+      <li>With SQL Server, the [DAO] layer inserts the record, which is automatically assigned a primary key value by SGBD; this value is then passed to the [DAO] layer.
       </li>
     </ul>
   </li>
 </ul>
 
-<p>These differences can be eliminated by using stored procedures. In the previous example, the [DAO] layer will call a stored procedure in Oracle or SQL Server that accounts for the DBMS’s specific features. These will be hidden from the [DAO] layer. Nevertheless, while changing the DBMS will not require rewriting the [DAO] layer, it will still require rewriting the stored procedures. This may not be considered a deal-breaker.</p>
-<p>Numerous efforts have been made to isolate the [DAO] layer from the proprietary aspects of DBMSs. One solution that has been highly successful in this area in recent years is <strong>Hibernate</strong>:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000074F0000011BD92904A5.png" width="680" height="103" style="display:inline-block; margin:4px;width:17.999cm;height:2.722cm;" class="odt-zoomable" data-zoom-src="images/100000000000074F0000011BD92904A5.png" /></td></tr></table>
+<p>These differences can be eliminated by using stored procedures. In the previous example, the [DAO] layer will call a stored procedure in Oracle or SQL Server that will account for the specific characteristics of the SGBD layer. These will be hidden from the [DAO] layer. However, while changing SGBD will not require rewriting the [DAO] layer, it will still require rewriting the stored procedures. This may not be considered a deal-breaker.</p>
+<p>Significant efforts have been made to isolate the [DAO] layer from the proprietary aspects of SGBD. One solution that has been highly successful in this area in recent years is <strong>Hibernate’s</strong>:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000074F0000011BD92904A5.png" width="680" height="103" style="display:inline-block; margin:4px;width:17.999cm;height:2.722cm;" class="odt-zoomable" data-zoom-src="images/100000000000074F0000011BD92904A5.png" /></td></tr></table>
 
-<p>The [Hibernate] layer sits between the [DAO] layer written by the developer and the [JDBC] layer. Hibernate is an ORM (Object-Relational Mapper), a tool that bridges the relational world of databases with that of objects manipulated by Java. The developer of the [DAO] layer no longer sees the [JDBC] layer or the database tables whose content they wish to utilize. They see only the object representation of the database, provided by the [Hibernate] layer. The bridge between the database tables and the objects manipulated by the [DAO] layer is primarily established in two ways:</p>
+<p>The [Hibernate] layer sits between the [DAO] layer written by the developer and the [JDBC] layer. Hibernate is an ORM (Object-Relational Mapper), a tool that bridges the gap between the relational world of databases and the world of objects manipulated by Java. The developer of the [DAO] layer no longer sees the [JDBC] layer or the database tables whose content they wish to utilize. They see only the object representation of the database, provided by the [Hibernate] layer. The bridge between the database tables and the objects manipulated by the [DAO] layer is established primarily in two ways:</p>
 <ul>
-  <li>via XML-style configuration files
+  <li>via XML configuration files
   </li>
-  <li>through Java annotations in the code, a technique available only since JDK 1.5
+  <li>via Java annotations in the code, a technique available only since JDK 1.5
   </li>
 </ul>
 
 <p>The [Hibernate] layer is an abstraction layer designed to be as transparent as possible. The ideal scenario is for the [DAO] layer developer to be completely unaware that they are working with a database. This is feasible if they are not the one writing the configuration that bridges the relational and object-oriented worlds. Configuring this bridge is quite delicate and requires some experience.</p>
-<p>The [4] object layer, which mirrors the database, is called the &quot;persistence context.&quot; A [DAO] layer based on Hibernate performs persistence operations (CRUD: create, read, update, delete) on the objects in the persistence context; these operations are translated by Hibernate into SQL statements executed by the JDBC layer. For database query operations (SQL SELECT), Hibernate provides developers with an HQL (Hibernate Query Language) to query the persistence context [4] rather than the database itself.</p>
-<p>Hibernate is popular but complex to master. The learning curve, often presented as easy, is in fact quite steep. As soon as you have a database with tables featuring one-to-many or many-to-many relationships, configuring the relational/object bridge is beyond the reach of the average beginner. Configuration errors can lead to poor-performing applications.</p>
-<p>In light of the success of ORM products, Sun, the creator of Java, decided to standardize an ORM layer via a specification called JPA (Java Persistence API), which was released alongside Java 5. The JPA specification has been implemented by various products: <strong>Hibernate</strong>, <strong>TopLink, EclipseLink, OpenJPA, etc.</strong> With JPA, the previous architecture becomes the following:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000007BC0000012E769EA268.png" width="680" height="104" style="display:inline-block; margin:4px;width:17.999cm;height:2.745cm;" class="odt-zoomable" data-zoom-src="images/10000000000007BC0000012E769EA268.png" /></td></tr></table>
+<p>The [4] object layer, a mirror of BD, is called the &quot;persistence context.&quot; A [DAO] layer based on Hibernate performs persistence operations (CRUD: create, read, update, delete) on the objects in the persistence context, actions translated by Hibernate into SQL commands executed by the JDBC layer. For database query operations (the SQL Select), Hibernate provides the developer with a HQL language (Hibernate Query Language) to query the [4] persistence context rather than the BD itself.</p>
+<p>Hibernate is popular but complex to master. The learning curve, often described as easy, is actually quite steep. As soon as you have a database with tables featuring one-to-many or many-to-many relationships, configuring the relational-to-object bridge is not something just any beginner can handle. Configuration errors can lead to poor application performance.</p>
+<p>Given the success of the ORM products, Sun, the creator of Java, decided to standardize a ORM layer via a specification called JPA (Java Persistence API), which appeared alongside Java 5. The JPA specification has been implemented by various products: <strong>Hibernate</strong>, <strong>Toplink, EclipseLink, OpenJpa, ....</strong> With JPA, the previous architecture becomes the following:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000007BC0000012E769EA268.png" width="680" height="104" style="display:inline-block; margin:4px;width:17.999cm;height:2.745cm;" class="odt-zoomable" data-zoom-src="images/10000000000007BC0000012E769EA268.png" /></td></tr></table>
 
-<p>The [DAO] layer now interacts with the JPA specification, a set of interfaces. Developers have gained in terms of standardization. Previously, if a developer changed their ORM layer, they also had to change their [DAO] layer, which had been written to interact with a specific ORM. Now, they will write a [DAO] layer that interacts with a JPA layer. Regardless of which product implements the JPA layer, the interface presented to the [DAO] layer remains the same.</p>
-<p>In this document, we will use a [DAO] layer built on top of a JPA/Hibernate or JPA/EclipseLink layer. We will also use the Spring 2.8 framework to link these layers together.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000008410000017C07262FF8.png" width="680" height="122" style="display:inline-block; margin:4px;width:17.999cm;height:3.237cm;" class="odt-zoomable" data-zoom-src="images/10000000000008410000017C07262FF8.png" /></td></tr></table>
+<p>The [DAO] layer now communicates with the JPA specification, a set of interfaces. The developer has gained in terms of standardization. Previously, if he changed his ORM layer, he also had to change his [DAO] layer, which had been written to interface with a specific ORM. Now, they will write a [DAO] layer that will interact with a JPA layer. Regardless of the product that implements it, the interface of the JPA layer presented to the [DAO] layer remains the same.</p>
+<p>In this document, we will use a [DAO] layer based on a JPA/Hibernate or JPA/EclipseLink layer. In addition, we will use the Spring 2.8 framework to link these layers together.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000008410000017C07262FF8.png" width="680" height="122" style="display:inline-block; margin:4px;width:17.999cm;height:3.237cm;" class="odt-zoomable" data-zoom-src="images/10000000000008410000017C07262FF8.png" /></td></tr></table>
 
-<p>The main advantage of Spring is that it allows you to link layers through configuration rather than in the code. Thus, if the JPA/Hibernate implementation needs to be replaced with a Hibernate implementation without JPA—for example, because the application is running in a JDK 1.4 environment that does not support JPA—this change in the [DAO] layer’s implementation has no impact on the [business] layer’s code. Only the Spring configuration file that links the layers together needs to be modified.</p>
-<p>With Java EE 5, another solution exists: implementing the [business] and [DAO] layers using EJB3 (Enterprise JavaBeans version 3):</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000008360000018F24F4901E.png" width="680" height="129" style="display:inline-block; margin:4px;width:17.999cm;height:3.417cm;" class="odt-zoomable" data-zoom-src="images/10000000000008360000018F24F4901E.png" /></td></tr></table>
+<p>The main advantage of Spring is that it allows the layers to be linked via configuration rather than in the code. Thus, if the JPA / Hibernate needs to be replaced by a Hibernate implementation without JPA—for example, because the application is running in a JDK 1.4 environment that does not support JPA— this change in the [DAO] layer implementation has no impact on the [métier] layer code. Only the Spring configuration file that links the layers together needs to be modified.</p>
+<p>With Java EE 5, another solution exists: implement the [metier] and [DAO] layers using EJB3 (Enterprise Java Bean 3):</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000008360000018F24F4901E.png" width="680" height="129" style="display:inline-block; margin:4px;width:17.999cm;height:3.417cm;" class="odt-zoomable" data-zoom-src="images/10000000000008360000018F24F4901E.png" /></td></tr></table>
 
-<p>We will see that this solution is not very different from the one using Spring. The Java EE 5 environment is available within so-called application servers such as <em>Sun Application Server 9.x (Glassfish), JBoss Application Server, Oracle Container for Java (OC4J),</em> ... An application server is essentially a web application server. There are also so-called &quot;stand-alone&quot; EE 5 environments, i.e., those that can be used outside of an application server. This is the case with JBoss EJB3 or OpenEJB.</p>
-<p>In an EE5 environment, the layers are implemented by objects called EJBs (Enterprise Java Beans). In previous versions of EE, EJBs (EJB 2.x) were known to be difficult to implement and test, and sometimes underperformed. A distinction is made between EJB 2.x &quot;entity&quot; beans and EJB 2.x &quot;session&quot; beans. In short, an EJB 2.x &quot;entity&quot; corresponds to a database table row, and an EJB 2.x &quot;session&quot; is an object used to implement the [business logic] and [DAO] layers of a multi-layer architecture. One of the main criticisms of layers implemented with EJBs is that they can only be used within EJB containers, a service provided by the EE (Enterprise Edition) environment. This environment, which is more complex to set up than an SE (Standard Edition) environment, can discourage developers from testing frequently. Nevertheless, there are Java development environments that facilitate the use of an application server by automating the deployment of EJBs to the server: <em>Eclipse, NetBeans, JDeveloper, IntelliJ IDEA</em>. Here, we will use <em>NetBeans 6.8</em> and the <em>GlassFish v3</em> application server.</p>
-<p>The <strong>Spring</strong> framework was created in response to the complexity of EJB2. In an SE environment, Spring provides a significant number of the services typically offered by EE environments. For example, in the &quot;Data Persistence&quot; section, Spring provides the connection pools and transaction managers that applications require. The emergence of Spring has fostered a culture of unit testing, which has become easier to implement in the SE context than in the EE context. Spring allows the implementation of application layers using standard Java objects (POJO, Plain Old/Ordinary Java Object), enabling their reuse in other contexts.  Finally, it integrates numerous third-party tools fairly transparently, notably persistence tools such as Hibernate, EclipseLink, iBatis, ...  </p>
-<p>Java EE 5 was designed to address the shortcomings of the EJB 2 specification. EJB 2.x has evolved into EJB 3. These are POJOs annotated with tags that make them special objects when they are within an EJB 3 container. Within the container, the EJB3 can leverage the container’s services (connection pool, transaction manager, etc.). Outside the EJB3 container, the EJB3 becomes a standard Java object. Its EJB annotations are ignored.</p>
-<p>Above, we have depicted Spring and an EJB3 container as a possible infrastructure (framework) for our multi-layer architecture. It is this infrastructure that will provide the services we need: a connection pool and a transaction manager.</p>
+<p>We will see that this solution is not very different from the one using Spring. The Java environment EE5 is available within so-called application servers such as <em>Sun Application Server 9.x (Glassfish), JBoss Application Server, Oracle Container for Java (OC4J),</em> ... An application server is essentially a web application server. There are also so-called &quot;stand-alone&quot; environments, EE 5, c.a.d. that can be used outside of an application server. This is the case for JBoss, EJB3, or OpenEJB.</p>
+<p>In a EE5 environment, the layers are implemented by objects called EJB (Enterprise Java Beans). In previous versions of EE, EJB (EJB 2.x) were considered difficult to implement, test, and sometimes underperformed. We distinguish between EJB2.x &quot;entity&quot; and EJB2.x &quot;session&quot;. In short, a EJB2.x &quot;entity&quot; represents a database table row, and a EJB2.x &quot;session&quot; is an object used to implement the [metier], [DAO] layers of a multi-layer architecture. One of the main criticisms of layers implemented with EJB is that they can only be used within EJB containers, a service provided by the EE environment. This environment, which is more complex to set up than a SE (Standard Edition) environment, may discourage developers from testing frequently. Nevertheless, there are Java development environments that simplify the use of an application server by automating the deployment of EJB to the server: <em>Eclipse, Netbeans, JDeveloper, IntelliJ, IDEA</em>. Here we will use <em>Netbeans 6.8</em> and the <em>Glassfish v3</em> application server.</p>
+<p>The <strong>Spring</strong> framework was created in response to the complexity of EJB2. Spring provides, within a SE environment, a significant number of the services typically provided by EE environments. Thus, in the &quot;Data Persistence&quot; section, Spring provides the connection pools and transaction managers that applications require. The emergence of Spring has fostered a culture of unit testing, which has become easier to implement in the SE context than in the EE context. Spring enables the implementation of application layers using standard Java objects (POJO, Plain Old/Ordinary Java Object), allowing for their reuse in a different context.  Finally, it integrates numerous third-party tools fairly transparently, notably persistence tools such as Hibernate, EclipseLink, iBatis, ...  </p>
+<p>Java EE5 was designed to address the shortcomings of the EJB2 specification. EJB 2.x has become EJB3. These are POJOs instances tagged with annotations that make them special objects when they are inside a EJB3 container. Within this container, the EJB3 will be able to benefit from the container’s services (connection pool, transaction manager, etc.). Outside the EJB3 container, the EJB3 becomes a normal Java object. Its EJB annotations are ignored.</p>
+<p>Above, we have depicted Spring and a EJB3 container as a possible infrastructure (framework) for our multi-layer architecture. It is this infrastructure that will provide the services we need: a connection pool and a transaction manager.</p>
 <ul>
   <li>With Spring, the layers will be implemented using POJOs. These will have access to Spring’s services (connection pool, transaction manager) through dependency injection into these POJOs: when constructing them, Spring injects references to the services they will need.
   </li>
-  <li>With the EJB3 container, the layers will be implemented using EJBs. A layered architecture implemented with EJB3s is not very different from one implemented with POJOs instantiated by Spring. We will find many similarities.
+  <li>With the EJB3 container, the layers will be implemented using EJB. A layered architecture implemented with EJB3 is not very different from those implemented with POJO instantiated by Spring. We will find many similarities.
   </li>
 </ul>
 
@@ -776,7 +778,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000082A000001A616D6D841.png" width="680" height="137" style="display:inline-block; margin:4px;width:17.999cm;height:3.634cm;" class="odt-zoomable" data-zoom-src="images/100000000000082A000001A616D6D841.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000082A000001A616D6D841.png" width="680" height="137" style="display:inline-block; margin:4px;width:17.999cm;height:3.634cm;" class="odt-zoomable" data-zoom-src="images/100000000000082A000001A616D6D841.png" /></td></tr></table>
 
 
 

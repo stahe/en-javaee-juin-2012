@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="stylesheets/focus.css">
     
+      <link rel="stylesheet" href="stylesheets/bidi.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -394,14 +396,14 @@
   
   
     <li class="md-nav__item">
-      <a href="jpa--an-overview.html" class="md-nav__link">
+      <a href="jpa--a-summary.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. JPA : An Overview
+    4. JPA : A Summary
   
 
     
@@ -421,14 +423,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-1-spring--jpa-architecture.html" class="md-nav__link">
+      <a href="version-1-spring-architecture--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Version 1: Spring / JPA Architecture
+    5. Version 1: Spring Architecture / JPA
   
 
     
@@ -448,14 +450,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-2-openejb--jpa-architecture.html" class="md-nav__link">
+      <a href="version-2-architecture-openejb--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Version 2: OpenEJB / JPA Architecture
+    6. Version 2: Architecture OpenEJB / JPA
   
 
     
@@ -482,7 +484,7 @@
   <span class="md-ellipsis">
     
   
-    7. Version 3: Porting the PAM application to a GlassFish application server
+    7. Version 3: Porting the PAM application to a Glassfish application server
   
 
     
@@ -509,7 +511,7 @@
   <span class="md-ellipsis">
     
   
-    8. Version 4 – Client/Server in a Web Service Architecture
+    8. Version 4 – client/server in a web service architecture
   
 
     
@@ -556,14 +558,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-5---pam-web--jsf-application.html" class="md-nav__link">
+      <a href="version-5---pam-web-application--jsf.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. Version 5 - PAM Web / JSF Application
+    10. Version 5 - PAM Web Application / JSF
   
 
     
@@ -583,14 +585,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture.html" class="md-nav__link">
+      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-architecture-jsf--ejb.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture
+    11. Version 6 - Integration of the web layer into a 3-tier architecture JSF / EJB
   
 
     
@@ -610,14 +612,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-7---multi-viewmulti-page-pam-web-application.html" class="md-nav__link">
+      <a href="version-7---pam-multi-view--multi-page-web-application.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. Version 7 - Multi-view/multi-page PAM web application
+    12. Version 7 - PAM multi-view / multi-page web application
   
 
     
@@ -637,14 +639,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-8-porting-the-application-to-a-spring--tomcat-environment.html" class="md-nav__link">
+      <a href="version-8-porting-the-application-to-a-springtomcat-environment.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. Version 8: Porting the application to a Spring / Tomcat environment
+    13. Version 8: Porting the application to a Spring/Tomcat environment
   
 
     
@@ -671,7 +673,7 @@
   <span class="md-ellipsis">
     
   
-    14. Version 9: Implementing the web layer with PrimeFaces
+    14. Version 9: Implementing the Web Layer with Primefaces
   
 
     
@@ -702,21 +704,21 @@
 
 
 <h1 id="1-introduction">1. <span style="color: #365f91">Introduction</span></h1>
-<p>The PDF of this document is available |<a href="https://1drv.ms/b/c/f53a919f43d27eb5/IQD8cHPRPuc_R7GB7EnonO2hAQDTbtqb_xTAl79j3J_Onrw?e=o2auYU"><u><span style="color: #0000ff">HERE</span></u></a>|.</p>
-<p>The examples in the document are available |<a href="https://1drv.ms/u/c/f53a919f43d27eb5/IQCZ95LuIXSNRYCSJdUFCeF9AdLszsH4OfSPdDqWA9LmYt0?e=6kNr7T"><u><span style="color: #0000ff">HERE</span></u></a>|.</p>
-<p>This document is based on a previous document written in 2010 and titled &quot;Introduction to Java EE with NetBeans 6.8 and the GlassFish v3 Server.&quot; This version primarily includes the following changes:</p>
+<p>The PDF for this document is available |<a href="https://1drv.ms/b/c/f53a919f43d27eb5/IQD8cHPRPuc_R7GB7EnonO2hAQDTbtqb_xTAl79j3J_Onrw?e=vPQRyK">HERE</a>|.</p>
+<p>The examples in this document are available |<a href="https://1drv.ms/u/c/f53a919f43d27eb5/IQCZ95LuIXSNRYCSJdUFCeF9AdLszsH4OfSPdDqWA9LmYt0?e=oMBa8r">HERE</a>|.</p>
+<p>This document is based on a previous document written in 2010 and titled &quot;Introduction to Java EE with Netbeans 6.8 and the Glassfish v3 server.&quot; This version primarily includes the following changes:</p>
 <ul>
-<li>the JSF (Java Server Faces) section is covered in a separate document: &quot;Introduction to Java Server Faces, PrimeFaces, and PrimeFaces Mobile,&quot; available at [<a href="https://stahe.github.io/en-jsf2-pf-pfm-juin-2012/"><u><span style="color: #0563c1">https://stahe.github.io/en-jsf2-pf-pfm-juin-2012/</span></u></a>]. It uses features from JSF version 2,</li>
-<li>the projects are Maven projects.</li>
+<li>The JSF (Java Server Faces) section is covered in a separate document: &quot;Introduction to Java Server Faces, Primefaces and Primefaces mobile&quot; available at URL [http://tahe.developpez.com/java/primefaces]. It uses features from version 2 of JSF,</li>
+<li>and the projects are Maven projects.</li>
 </ul>
-<p><strong>Java EE</strong> stands for <strong>Java Enterprise Edition</strong>. <strong>J2EE</strong> (<strong>Java 2 Enterprise Edition</strong>) was the previous term. J2EE refers to the Java technologies used to create enterprise applications with JDK 1.4 or earlier. As JDK 1.5 introduced numerous new features to the Java language, Sun introduced new technologies based on this enhanced language to address shortcomings in those same technologies within J2EE. The term Java EE 5 was then used to refer to the set of technologies that work together to create an enterprise application using the Java platform. At the time of this document’s update, the latest version of Java EE is Java EE 6.</p>
+<p><strong>Java EE</strong> refers to <strong>Java Enterprise Edition</strong>. <strong>J2EE</strong> (<strong>Java 2 Enterprise Edition</strong>) was the previous term. J2EE refers to the Java technologies used to create enterprise applications with JDK 1.4 or earlier. At the same time that JDK 1.5 introduced many new features to the Java language, Sun introduced new technologies based on this enhanced language to address shortcomings in those same technologies in J2EE. The term Java EE 5 was then used to refer to the set of technologies that work together to create an enterprise application using the Java platform. At the time of this document’s update, the latest version of Java 5 is Java 6.</p>
 <p>Books by <strong>Antonio Goncalves</strong>:</p>
 <ul>
-<li>Java EE 5, published by Eyrolles</li>
-<li>Beginning Java EE 6 Platform with Glassfish 3, published by Apress</li>
+<li>Java 5, published by Eyrolles</li>
+<li>Beginning Java 6 Platform with Java 3, published by Apress</li>
 </ul>
-<p>are excellent books for discovering the technologies of Java EE 5 and Java EE 6. All the important Java EE technologies are reviewed in the context of realistic case studies. The author has a website [<a href="http://www.antoniogoncalves.org/"><u><span style="color: #0563c1">http://www.antoniogoncalves.org</span></u></a>] that readers are invited to visit.</p>
-<p>This document explores some of the technologies in Java EE 5. We create a basic three-tier application [presentation, business logic, data access] available in several versions:</p>
+<p>are excellent books for learning about Java EE 5 and Java EE 6 technologies. All the major Java EE technologies are covered in the context of realistic case studies. The author has a website that readers are invited to visit.</p>
+<p>This document explores some of the technologies of Java EE 5. In it, we create a basic three-tier application [présentation, métier, accès aux données] available in several versions:</p>
 <p>A web application using the following technologies:</p>
 <ul>
 <li><strong>Java Server Faces</strong>: for the web layer</li>
@@ -728,23 +730,23 @@
 <li><strong>Swing</strong>: for the client GUI layer with <strong>Spring</strong> support</li>
 <li><strong>EJB3</strong> or <strong>web service</strong>: for the server layer</li>
 </ul>
-<p>Certain Java EE technologies are not covered here, such as <strong>MDBs</strong> (Message Driven Beans) or <strong>stateful EJB3s</strong>. To learn more about them, refer to Antonio Goncalves’ books.</p>
-<p>There are other open-source technologies available for creating three-tier applications. A very popular combination is <strong>Spring</strong> (http://www.springframework.org/) / <strong>Hibernate</strong> (http://www.hibernate.org/). To allow the reader to compare <strong>EJB3</strong> and <strong>Spring</strong> technologies, the previous application has versions where <strong>Spring</strong> replaces <strong>EJB3</strong>.</p>
-<p>This document is a tutorial (TD) used in the fifth year of the ISTIA engineering school at the University of Angers [http://www.istia.univ-angers.fr]. This tutorial describes the application to be built, the Java technologies to be used, and where to find information. The proposed solution is often very structured. The assignment poses questions without providing the answers. It is up to the student to find them.</p>
-<p>The Java EE learning process outlined here requires an estimated time investment of 50 to 100 hours. The document contains a significant amount of code, making it possible to copy and paste. Additionally, all NetBeans projects are described in detail. Overall, the document provides the frameworks for the solutions, and students are asked to fill in certain details. The document can be useful even to someone who cannot or does not want to invest that much time. One can focus solely on the architectures described and skip the code section that is the subject of the questions.</p>
-<p>To develop and run the application, we use the NetBeans IDE. NetBeans is a fairly resource-intensive application: allow for 1 GB of RAM to work comfortably. It can be downloaded from the URL <a href="http://www.netbeans.org/%5D">[<u><span style="color: #0563c1">http://www.netbeans.org/]</span></u></a>.</p>
-<p>This document refers to the following courses:</p>
+<p>Certain Java technologies, such as EE, are not covered here, such as <strong>MDB</strong> (Message Driven Bean) or <strong>EJB3</strong> (<strong>stateful</strong>). To learn more about them, refer to Antonio Goncalves’ books.</p>
+<p>There are other open-source technologies available for building three-tier applications. A very popular combination is <strong>Spring</strong> (http://www.springframework.org/) / <strong>Hibernate</strong> (http://www.hibernate.org/). To allow the reader to compare <strong>EJB3</strong> and <strong>Spring</strong> technologies, the previous application has versions where <strong>Spring</strong> replaces <strong>EJB3</strong>.</p>
+<p>This document is a TD (Guided Project) used in the 5th year of the ISTIA engineering program at the University of Angers [http://www.istia.univ-angers.fr]. This TD describes the application to be built, the Java technologies to be used, and where to find information. The proposed solution is often very structured. The TD asks questions without providing the answers. It is up to the student to find them.</p>
+<p>The Java learning guide EE presented here requires an estimated time investment of 50 to 100 hours. The document contains a lot of code, making it possible to copy and paste. Furthermore, all Netbeans projects are described in detail. Overall, the document provides the outlines of the solutions, and students are asked to fill in certain details. The document can be useful even to someone who cannot or does not want to invest that much time. One can focus solely on the architectures described and skip the code section that is the subject of the questions.</p>
+<p>To develop and run the application, we use the IDE Netbeans. Netbeans is a fairly resource-intensive product: allow for 1 GB of RAM to work comfortably. It can be downloaded from url [http://www.netbeans.org/].</p>
+<p>The document refers to the following courses:</p>
 <ol>
-<li><strong>Java 5 Persistence in Practice</strong>: [<a href="https://stahe.github.io/en-jpa-juin-2007/"><u><span style="color: #0563c1">https://stahe.github.io/en-jpa-juin-2007/</span></u></a>] - provides the tools to build the data access layer with <strong>JPA</strong> (Java Persistence API)</li>
+<li><strong>Java 5 Persistence in Practice</strong>: [<a href="https://stahe.github.io/en-jpa-juin-2007/"><u><span style="color: #000080">Java 5 Persistence Through Practice (2007)</span></u></a>] - provides the tools to build the data access layer with <strong>JPA</strong> (Java Persistence API)</li>
 </ol>
 <ol start="2">
-  <li><b>Introduction to the Java Language </b>[<a href="https://stahe.github.io/en-java-sept-1998/"><u><span style="color: #0563c1">https://stahe.github.io/en-java-sept-1998/</span></u></a>] - for beginners
+  <li><b>Introduction to the Java Language </b>[<a href="https://stahe.github.io/en-java-sept-1998/"><u><span style="color: #000080">Introduction to the Java Language (1998)</span></u></a>] - for beginners
   </li>
-  <li><b>Introduction to Java Server Faces, PrimeFaces, and PrimeFaces Mobile through Examples </b>[<a href="https://stahe.github.io/en-jsf2-pf-pfm-juin-2012/"><u><span style="color: #0563c1">https://stahe.github.io/en-jsf2-pf-pfm-juin-2012/</span></u></a>]
+  <li><b>Introduction to Java Server Faces through examples, Primefaces and Primefaces mobile </b>[<a href="https://stahe.github.io/en-jsf2-pf-pfm-juin-2012/"><u><span style="color: #000080">Introduction to Java Server Faces, PrimeFaces, and PrimeFaces Mobile with Examples (2012)</span></u></a>]
   </li>
 </ol>
 
-<p>These course materials are subsequently referenced as [<strong>ref1</strong>], [<strong>ref2</strong>], and [<strong>ref3</strong>].</p>
+<p>These course materials are subsequently referenced as [ref1], [ref2], and [ref3].</p>
 <p>Serge Tahé, June 2012.</p>
 
 

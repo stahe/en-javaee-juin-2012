@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://stahe.github.io/en-javaee-juin-2012/version-9-implementing-the-web-layer-with-primefaces.html">
       
       
-        <link rel="prev" href="version-8-porting-the-application-to-a-spring--tomcat-environment.html">
+        <link rel="prev" href="version-8-porting-the-application-to-a-springtomcat-environment.html">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>14. Version 9: Implementing the web layer with PrimeFaces - Introduction to Java EE using the NetBeans IDE and the GlassFish application server</title>
+        <title>14. Version 9: Implementing the Web Layer with Primefaces - Introduction to Java EE using the NetBeans IDE and the GlassFish application server</title>
       
     
     
@@ -54,6 +54,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -126,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              14. Version 9: Implementing the web layer with PrimeFaces
+              14. Version 9: Implementing the Web Layer with Primefaces
             
           </span>
         </div>
@@ -382,14 +384,14 @@
   
   
     <li class="md-nav__item">
-      <a href="jpa--an-overview.html" class="md-nav__link">
+      <a href="jpa--a-summary.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. JPA : An Overview
+    4. JPA : A Summary
   
 
     
@@ -409,14 +411,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-1-spring--jpa-architecture.html" class="md-nav__link">
+      <a href="version-1-spring-architecture--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Version 1: Spring / JPA Architecture
+    5. Version 1: Spring Architecture / JPA
   
 
     
@@ -436,14 +438,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-2-openejb--jpa-architecture.html" class="md-nav__link">
+      <a href="version-2-architecture-openejb--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Version 2: OpenEJB / JPA Architecture
+    6. Version 2: Architecture OpenEJB / JPA
   
 
     
@@ -470,7 +472,7 @@
   <span class="md-ellipsis">
     
   
-    7. Version 3: Porting the PAM application to a GlassFish application server
+    7. Version 3: Porting the PAM application to a Glassfish application server
   
 
     
@@ -497,7 +499,7 @@
   <span class="md-ellipsis">
     
   
-    8. Version 4 – Client/Server in a Web Service Architecture
+    8. Version 4 – client/server in a web service architecture
   
 
     
@@ -544,14 +546,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-5---pam-web--jsf-application.html" class="md-nav__link">
+      <a href="version-5---pam-web-application--jsf.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. Version 5 - PAM Web / JSF Application
+    10. Version 5 - PAM Web Application / JSF
   
 
     
@@ -571,14 +573,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture.html" class="md-nav__link">
+      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-architecture-jsf--ejb.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture
+    11. Version 6 - Integration of the web layer into a 3-tier architecture JSF / EJB
   
 
     
@@ -598,14 +600,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-7---multi-viewmulti-page-pam-web-application.html" class="md-nav__link">
+      <a href="version-7---pam-multi-view--multi-page-web-application.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. Version 7 - Multi-view/multi-page PAM web application
+    12. Version 7 - PAM multi-view / multi-page web application
   
 
     
@@ -625,14 +627,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-8-porting-the-application-to-a-spring--tomcat-environment.html" class="md-nav__link">
+      <a href="version-8-porting-the-application-to-a-springtomcat-environment.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. Version 8: Porting the application to a Spring / Tomcat environment
+    13. Version 8: Porting the application to a Spring/Tomcat environment
   
 
     
@@ -668,7 +670,7 @@
   <span class="md-ellipsis">
     
   
-    14. Version 9: Implementing the web layer with PrimeFaces
+    14. Version 9: Implementing the Web Layer with Primefaces
   
 
     
@@ -699,30 +701,25 @@
 
 
 
-<p><a id="refheading344873813040411"></a></p>
-<h1 id="14-version-9-implementing-the-web-layer-with-primefaces">14. <span style="color: #365f91">Version 9: Implementing the web layer with PrimeFaces</span></h1>
-<p><strong>Prerequisites</strong><span style="color: #000000">: Read &quot;Introduction to Primefaces&quot; in [</span><a href="http://tahe.developpez.com/java/primefaces"><u><span style="color: #0563c1">ref3</span></u></a><span style="color: #000000">].</span></p>
+<p><span id="refheading344873813040411" name="refheading344873813040411" class="odt-bookmark-anchor"></span></p>
+<h1 id="14-version-9-implementing-the-web-layer-with-primefaces">14. <span style="color: #365f91">Version 9: Implementing the Web Layer with Primefaces</span></h1>
+<p><strong>Prerequisites</strong><span style="color: #000000">: Read &quot;Introduction to Primefaces&quot; in [ref3].</span></p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Question 1</strong><span style="color: #000000">: Create a new Maven project of type [Web Application] where the XHTML pages from the previous example are built using Primefaces components. Do not make any changes to the beans.</span></p>
+<p><strong>Question 1</strong><span style="color: #000000">: Create a new Maven project of type [Web Application] where the XHTML pages from the previous example would be built using Primefaces components. Do not make any changes to the beans.</span></p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 <p><span style="color: #000000">The home page uses the &lt;</span><strong>p:panel</strong><span style="color: #000000">&gt;, &lt;</span><strong>p:inputText</strong><span style="color: #000000">&gt;, &lt;</span><strong>p:selectOneMenu</strong><span style="color: #000000">&gt;, and &lt;</span><strong>p:message</strong><span style="color: #000000">&gt; components:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002C6000001547378E354.png" width="497" height="238" style="display:inline-block; margin:4px;width:13.15cm;height:6.297cm;" class="odt-zoomable" data-zoom-src="images/10000000000002C6000001547378E354.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002C6000001547378E354.png" width="497" height="238" style="display:inline-block; margin:4px;width:13.15cm;height:6.297cm;" class="odt-zoomable" data-zoom-src="images/10000000000002C6000001547378E354.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">An incorrect entry:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002C9000001345387D6F6.png" width="497" height="215" style="display:inline-block; margin:4px;width:13.15cm;height:5.681cm;" class="odt-zoomable" data-zoom-src="images/10000000000002C9000001345387D6F6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002C9000001345387D6F6.png" width="497" height="215" style="display:inline-block; margin:4px;width:13.15cm;height:5.681cm;" class="odt-zoomable" data-zoom-src="images/10000000000002C9000001345387D6F6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">A simulation:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002C700000304482D9BB3.png" width="497" height="540" style="display:inline-block; margin:4px;width:13.15cm;height:14.279cm;" class="odt-zoomable" data-zoom-src="images/10000000000002C700000304482D9BB3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002C700000304482D9BB3.png" width="497" height="540" style="display:inline-block; margin:4px;width:13.15cm;height:14.279cm;" class="odt-zoomable" data-zoom-src="images/10000000000002C700000304482D9BB3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p><span style="color: #000000">The list of simulations uses the &lt;</span><strong>p:dataTable</strong><span style="color: #000000">&gt; and &lt;</span><strong>p:commandLink</strong><span style="color: #000000">&gt; components:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000059C0000012C9EF5714F.png" width="794" height="166" style="display:inline-block; margin:4px;width:21.001cm;height:4.387cm;" class="odt-zoomable" data-zoom-src="images/100000000000059C0000012C9EF5714F.png" /></td></tr></table>
+<p><span style="color: #000000">The list of simulations uses the components &lt;</span><strong>p:dataTable</strong><span style="color: #000000">&gt;, &lt;</span><strong>p:commandLink</strong><span style="color: #000000">&gt;:</span></p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000059C0000012C9EF5714F.png" width="794" height="166" style="display:inline-block; margin:4px;width:21.001cm;height:4.387cm;" class="odt-zoomable" data-zoom-src="images/100000000000059C0000012C9EF5714F.png" /></td></tr></table>
 
-<p><span style="color: #000000">The AJAX methods will update the area </span><strong>with id=&#x27;formulaire&#x27;,</strong> <span style="color: #000000">which includes the entire page (see line 11 below):</span></p>
-<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:commandLink</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdTerminerSession&quot;</span> <span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.terminerSession&#x27;]}&quot;</span> <span style="color:#7f007f">action</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.terminerSession}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menuTerminerSessionIsRendered}&quot;</span><span style="color:#008080">/&gt;</span></span></span>
-</code></pre></div>
-
-<p><span style="color: #000000">Once your application is working, replace the [entete.xhtml] page with the following page:</span></p>
+<p><span style="color: #000000">The AJAX methods will update the </span><strong>id=&#x27;form&#x27;</strong><span style="color: #000000"> field, which includes the entire page (see line 11 below):</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span>=<span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span>=<span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -748,16 +745,50 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<ul>
-  <li><span style="color: #000000">line 15: a PrimeFaces menu bar,</span>
-  </li>
-  <li><span style="color: #000000">line 16: a menu option in this bar,</span>
-  </li>
-  <li><span style="color: #000000">line 17: an item in this menu option.</span>
-  </li>
-</ul>
+<p><span style="color: #000000">Once your application is working, replace the [entete.xhtml] page with the following page:</span></p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span>=<span style="font-style:italic;color:#2a00ff">&#x27;1.0&#x27;</span> <span style="color:#7f007f">encoding</span>=<span style="font-style:italic;color:#2a00ff">&#x27;UTF-8&#x27;</span> <span style="color:#008080">?&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html</span> <span style="color:#808080">PUBLIC</span> <span style="color:#008080">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span style="color:#3f7f5f">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">html</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/1999/xhtml&quot;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#7f007f">xmlns:h</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/jsf/html&quot;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#7f007f">xmlns:p</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://primefaces.org/ui&quot;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#7f007f">xmlns:f</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/jsf/core&quot;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">      <span style="color:#7f007f">xmlns:ui</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/jsf/facelets&quot;</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">&lt;!-- entete --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h:panelGroup</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">h2</span><span style="color:#008080">&gt;&lt;</span><span style="color:#3f7f7f">h:outputText</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.titre&#x27;]}&quot;</span><span style="color:#008080">/&gt;&lt;/</span><span style="color:#3f7f7f">h2</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">h:panelGroup</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:menubar</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;menu&quot;</span> <span style="color:#7f007f">header</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;Menu&quot;</span> <span style="color:#7f007f">style</span><span style="color:#000000">=&quot;</span><span style="color:#7f007f">width</span><span style="color:#000000">: </span><span style="font-style:italic;color:#2a00e1">500px</span><span style="color:#000000">&quot;</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:submenu</span> <span style="color:#7f007f">label</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.simulation&#x27;]}&quot;</span><span style="color:#008080">&gt;</span><span style="color:#000000">  </span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">      </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:menuitem</span>  <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdFaireSimulation&quot;</span> <span style="color:#7f007f">style</span><span style="color:#000000">=&quot;</span><span style="color:#7f007f">width</span><span style="color:#000000">: </span><span style="font-style:italic;color:#2a00e1">200px</span><span style="color:#000000">&quot; </span><span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.faireSimulation&#x27;]}&quot;</span> <span style="color:#7f007f">actionListener</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.faireSimulation}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menu.faireSimulation}&quot;</span> <span style="color:#7f007f">update</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;:formulaire:contenu&quot;</span><span style="color:#008080">/&gt;</span><span style="color:#000000">  </span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">      </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:menuitem</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdEffacerSimulation&quot;</span> <span style="color:#7f007f">style</span><span style="color:#000000">=&quot;</span><span style="color:#7f007f">width</span><span style="color:#000000">: </span><span style="font-style:italic;color:#2a00e1">200px</span><span style="color:#000000">&quot; </span><span style="color:#7f007f">onclick</span><span style="color:#000000">=</span><span style="color:#2a00ff">&quot;raz();&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.effacerSimulation&#x27;]}&quot;</span> <span style="color:#7f007f">actionListener</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.effacerSimulation}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menu.effacerSimulation}&quot;</span> <span style="color:#7f007f">update</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;:formulaire:contenu&quot;</span><span style="color:#008080">/&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">      </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:menuitem</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdEnregistrerSimulation&quot;</span> <span style="color:#7f007f">style</span><span style="color:#000000">=&quot;</span><span style="color:#7f007f">width</span><span style="color:#000000">: </span><span style="font-style:italic;color:#2a00e1">200px</span><span style="color:#000000">&quot; </span><span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.enregistrerSimulation&#x27;]}&quot;</span> <span style="color:#7f007f">actionListener</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.enregistrerSimulation}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menu.enregistrerSimulation}&quot;</span> <span style="color:#7f007f">update</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;:formulaire:contenu&quot;</span><span style="color:#008080">/&gt;</span><span style="color:#000000">            </span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">p:submenu</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:submenu</span> <span style="color:#7f007f">label</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;Navigation&quot;</span><span style="color:#008080">&gt;</span><span style="color:#000000">  </span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">      </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:menuitem</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdRetourSimulateur&quot;</span> <span style="color:#7f007f">style</span><span style="color:#000000">=&quot;</span><span style="color:#7f007f">width</span><span style="color:#000000">: </span><span style="font-style:italic;color:#2a00e1">200px</span><span style="color:#000000">&quot; </span><span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.retourSimulateur&#x27;]}&quot;</span> <span style="color:#7f007f">actionListener</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.retourSimulateur}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menu.retourSimulateur}&quot;</span> <span style="color:#7f007f">update</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;:formulaire:contenu&quot;</span><span style="color:#008080">/&gt;</span><span style="color:#000000">  </span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">      </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:menuitem</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdVoirSimulations&quot;</span> <span style="color:#7f007f">style</span><span style="color:#000000">=&quot;</span><span style="color:#7f007f">width</span><span style="color:#000000">: </span><span style="font-style:italic;color:#2a00e1">200px</span><span style="color:#000000">&quot; </span><span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.voirSimulations&#x27;]}&quot;</span> <span style="color:#7f007f">actionListener</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.voirSimulations}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menu.voirSimulations}&quot;</span> <span style="color:#7f007f">update</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;:formulaire:contenu&quot;</span><span style="color:#008080">/&gt;</span><span style="color:#000000">    </span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">p:submenu</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:menuitem</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;cmdTerminerSession&quot;</span> <span style="color:#7f007f">immediate</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{msg[&#x27;form.menu.terminerSession&#x27;]}&quot;</span> <span style="color:#7f007f">actionListener</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{form.terminerSession}&quot;</span> <span style="color:#7f007f">rendered</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;#{sessionData.menu.terminerSession}&quot;</span> <span style="color:#7f007f">update</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;:formulaire:contenu&quot;</span><span style="color:#008080">/&gt;</span><span style="color:#000000">         </span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">p:menubar</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">p:spacer</span> <span style="color:#7f007f">height</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;50px&quot;</span><span style="color:#008080">/&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
+</code></pre></div>
 
-<p><span style="color: #000000">The model is not affected by this change. The new view is as follows:</span></p>
+<ol>
+  <li><span style="color: #000000">line 15: a Primefaces menu bar,</span>
+  </li>
+  <li><span style="color: #000000">line 16: a option menu item in this bar,</span>
+  </li>
+  <li><span style="color: #000000">line 17: an item in this option menu.</span>
+  </li>
+</ol>
+
+<p><span style="color: #000000">The template is not affected by this change. The new view is as follows:</span></p>
 <p><img src="images/10000000000002CF000001FF726201D9.png" width="359" height="255" style="width:9.511cm;height:6.759cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000002CF000001FF726201D9.png" /></p>
 
 

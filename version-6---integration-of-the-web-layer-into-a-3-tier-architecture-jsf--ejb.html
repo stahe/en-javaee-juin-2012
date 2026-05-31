@@ -12,13 +12,13 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/en-javaee-juin-2012/version-6---integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture.html">
+        <link rel="canonical" href="https://stahe.github.io/en-javaee-juin-2012/version-6---integration-of-the-web-layer-into-a-3-tier-architecture-jsf--ejb.html">
       
       
-        <link rel="prev" href="version-5---pam-web--jsf-application.html">
+        <link rel="prev" href="version-5---pam-web-application--jsf.html">
       
       
-        <link rel="next" href="version-7---multi-viewmulti-page-pam-web-application.html">
+        <link rel="next" href="version-7---pam-multi-view--multi-page-web-application.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>11. Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture - Introduction to Java EE using the NetBeans IDE and the GlassFish application server</title>
+        <title>11. Version 6 - Integration of the web layer into a 3-tier architecture JSF / EJB - Introduction to Java EE using the NetBeans IDE and the GlassFish application server</title>
       
     
     
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -92,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#11-version-6-integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture" class="md-skip">
+        <a href="#11-version-6-integration-of-the-web-layer-into-a-3-tier-architecture-jsf-ejb" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              11. Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture
+              11. Version 6 - Integration of the web layer into a 3-tier architecture JSF / EJB
             
           </span>
         </div>
@@ -384,14 +386,14 @@
   
   
     <li class="md-nav__item">
-      <a href="jpa--an-overview.html" class="md-nav__link">
+      <a href="jpa--a-summary.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. JPA : An Overview
+    4. JPA : A Summary
   
 
     
@@ -411,14 +413,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-1-spring--jpa-architecture.html" class="md-nav__link">
+      <a href="version-1-spring-architecture--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Version 1: Spring / JPA Architecture
+    5. Version 1: Spring Architecture / JPA
   
 
     
@@ -438,14 +440,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-2-openejb--jpa-architecture.html" class="md-nav__link">
+      <a href="version-2-architecture-openejb--jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Version 2: OpenEJB / JPA Architecture
+    6. Version 2: Architecture OpenEJB / JPA
   
 
     
@@ -472,7 +474,7 @@
   <span class="md-ellipsis">
     
   
-    7. Version 3: Porting the PAM application to a GlassFish application server
+    7. Version 3: Porting the PAM application to a Glassfish application server
   
 
     
@@ -499,7 +501,7 @@
   <span class="md-ellipsis">
     
   
-    8. Version 4 – Client/Server in a Web Service Architecture
+    8. Version 4 – client/server in a web service architecture
   
 
     
@@ -546,14 +548,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-5---pam-web--jsf-application.html" class="md-nav__link">
+      <a href="version-5---pam-web-application--jsf.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. Version 5 - PAM Web / JSF Application
+    10. Version 5 - PAM Web Application / JSF
   
 
     
@@ -589,7 +591,7 @@
   <span class="md-ellipsis">
     
   
-    11. Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture
+    11. Version 6 - Integration of the web layer into a 3-tier architecture JSF / EJB
   
 
     
@@ -600,14 +602,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture.html" class="md-nav__link md-nav__link--active">
+      <a href="version-6---integration-of-the-web-layer-into-a-3-tier-architecture-jsf--ejb.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture
+    11. Version 6 - Integration of the web layer into a 3-tier architecture JSF / EJB
   
 
     
@@ -647,7 +649,7 @@
   <a href="#112-the-netbeans-project-for-the-web-layer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        11.2. The NetBeans project for the web layer
+        11.2. The Netbeans project for the web layer
       
     </span>
   </a>
@@ -655,10 +657,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#113-the-netbeans-project-for-the-enterprise-application" class="md-nav__link">
+  <a href="#113-the-netbeans-project-of-the-enterprise-application" class="md-nav__link">
     <span class="md-ellipsis">
       
-        11.3. The NetBeans project for the enterprise application
+        11.3. The Netbeans project of the enterprise application
       
     </span>
   </a>
@@ -680,14 +682,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-7---multi-viewmulti-page-pam-web-application.html" class="md-nav__link">
+      <a href="version-7---pam-multi-view--multi-page-web-application.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. Version 7 - Multi-view/multi-page PAM web application
+    12. Version 7 - PAM multi-view / multi-page web application
   
 
     
@@ -707,14 +709,14 @@
   
   
     <li class="md-nav__item">
-      <a href="version-8-porting-the-application-to-a-spring--tomcat-environment.html" class="md-nav__link">
+      <a href="version-8-porting-the-application-to-a-springtomcat-environment.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. Version 8: Porting the application to a Spring / Tomcat environment
+    13. Version 8: Porting the application to a Spring/Tomcat environment
   
 
     
@@ -741,7 +743,7 @@
   <span class="md-ellipsis">
     
   
-    14. Version 9: Implementing the web layer with PrimeFaces
+    14. Version 9: Implementing the Web Layer with Primefaces
   
 
     
@@ -771,69 +773,61 @@
 
 
 
-<p><a id="refheading87567112820228"></a>
-<a id="integration-jsf-ejb-1"></a></p>
-<h1 id="11-version-6-integration-of-the-web-layer-into-a-3-tier-jsfejb-architecture">11. <span style="color: #365f91">Version 6 - Integration of the web layer into a 3-tier JSF/EJB architecture</span></h1>
-<p><a id="refheading87569112820228"></a></p>
+<p><span id="refheading87567112820228" name="refheading87567112820228" class="odt-bookmark-anchor"></span>
+<span id="integration-jsf-ejb-1" name="integration-jsf-ejb-1" class="odt-bookmark-anchor"></span></p>
+<h1 id="11-version-6-integration-of-the-web-layer-into-a-3-tier-architecture-jsf-ejb">11. <span style="color: #365f91"><strong>Version 6 -</strong> <strong>Integration of the web layer into a 3-tier architecture JSF / EJB</strong></span></h1>
+<p><span id="refheading87569112820228" name="refheading87569112820228" class="odt-bookmark-anchor"></span></p>
 <h2 id="111-application-architecture">11.1. <span style="color: #4f81bd">Application Architecture</span></h2>
 <p>The architecture of the previous web application was as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003DE0000015FF05E684A.png" width="495" height="175" style="display:inline-block; margin:4px;width:13.097cm;height:4.643cm;" class="odt-zoomable" data-zoom-src="images/10000000000003DE0000015FF05E684A.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003DE0000015FF05E684A.png" width="495" height="175" style="display:inline-block; margin:4px;width:13.097cm;height:4.643cm;" class="odt-zoomable" data-zoom-src="images/10000000000003DE0000015FF05E684A.png" /></td></tr></table>
 
-<p>We replace the simulated [business] layer with the [business, DAO, JPA] layers implemented by EJBs in Section<a href="#serveur-ejb-sunas9"><u><span style="color: #0563c1"> 7.1</span></u></a>:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000045300000161BAD25DD6.png" width="554" height="177" style="display:inline-block; margin:4px;width:14.646cm;height:4.671cm;" class="odt-zoomable" data-zoom-src="images/100000000000045300000161BAD25DD6.png" /></td></tr></table>
+<p>We are replacing the simulated [métier] layer with the [métier, DAO, jpa] layers implemented by EJB in Section<a href="version-3-porting-the-pam-application-to-a-glassfish-application-server.html#serveur-ejb-sunas9"><u><span style="color: #0563c1"> 7.1</span></u></a>:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000045300000161BAD25DD6.png" width="554" height="177" style="display:inline-block; margin:4px;width:14.646cm;height:4.671cm;" class="odt-zoomable" data-zoom-src="images/100000000000045300000161BAD25DD6.png" /></td></tr></table>
 
-<p><a id="refheading87571112820228"></a></p>
-<h2 id="112-the-netbeans-project-for-the-web-layer">11.2. <span style="color: #4f81bd">The NetBeans project for the web layer</span></h2>
-<p>The NetBeans project for Web Version 2 is created by copying the previous project:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000497000002C7D3111BD5.png" width="588" height="356" style="display:inline-block; margin:4px;width:15.545cm;height:9.407cm;" class="odt-zoomable" data-zoom-src="images/1000000000000497000002C7D3111BD5.png" /></td></tr></table>
+<p><span id="refheading87571112820228" name="refheading87571112820228" class="odt-bookmark-anchor"></span></p>
+<h2 id="112-the-netbeans-project-for-the-web-layer">11.2. <span style="color: #4f81bd">The Netbeans project for the web layer</span></h2>
+<p>The Netbeans project for Web version No. 2 is obtained by copying the previous project:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000497000002C7D3111BD5.png" width="588" height="356" style="display:inline-block; margin:4px;width:15.545cm;height:9.407cm;" class="odt-zoomable" data-zoom-src="images/1000000000000497000002C7D3111BD5.png" /></td></tr></table>
 
-<ul>
-  <li>[1]: Copy the new project and paste it into the [Projects] tab,
+<ol>
+  <li>[1]: copy the new project and paste it into the [Projects] tab,
   </li>
   <li>[2]: give it a name and set its folder,
   </li>
   <li>[3]: the project is created,
   </li>
-</ul>
+</ol>
 
-<p>The new project has the same name as the old one. We change this:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000431000002E43405DF57.png" width="537" height="370" style="display:inline-block; margin:4px;width:14.196cm;height:9.79cm;" class="odt-zoomable" data-zoom-src="images/1000000000000431000002E43405DF57.png" /></td></tr></table>
+<p>The new project has the same name as the old one. We change that:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000431000002E43405DF57.png" width="537" height="370" style="display:inline-block; margin:4px;width:14.196cm;height:9.79cm;" class="odt-zoomable" data-zoom-src="images/1000000000000431000002E43405DF57.png" /></td></tr></table>
 
 <ul>
-  <li>[4]: Rename the project,
+  <li>[4]: we rename the project,
   </li>
-  <li>[5]: Change its name as well as the artifactID.
-  </li>
-</ul>
-
-<p>We have few changes to make to adapt this web layer to its new environment: the simulated [business] layer must be replaced by the [business, DAO, JPA] layer of the server built in Section<a href="#serveur-ejb-sunas9"><u><span style="color: #0563c1"> 7.1</span></u></a>. To do this, we do two things:</p>
-<ul>
-  <li>we remove the [exception, business, jpa] packages that were present in the previous project.
-  </li>
-  <li>To compensate for this removal, we add the EJB server project built in Section<a href="#serveur-ejb-sunas9"><u><span style="color: #0563c1"> 7.1</span></u></a> to the web project’s dependencies.
+  <li>[5]: we change its name as well as that of artifactID.
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000052B0000017B70B2923F.png" width="662" height="190" style="display:inline-block; margin:4px;width:17.503cm;height:5.015cm;" class="odt-zoomable" data-zoom-src="images/100000000000052B0000017B70B2923F.png" /></td></tr></table>
-
+<p>We have few changes to make to adapt this web layer to its new environment: the simulated [metier] layer must be replaced by the [metier, DAO, jpa] layer from the server built in Section<a href="version-3-porting-the-pam-application-to-a-glassfish-application-server.html#serveur-ejb-sunas9"><u><span style="color: #0563c1"> 7.1</span></u></a>. To do this, we do two things:</p>
 <ul>
+  <li>we remove the [exception, metier, jpa] packages that were present in the previous project.
+  </li>
+  <li>To compensate for this removal, we add the EJB server project built in Section<a href="version-3-porting-the-pam-application-to-a-glassfish-application-server.html#serveur-ejb-sunas9"><u><span style="color: #0563c1"> 7.1</span></u></a> to the web project’s dependencies.
+  </li>
+</ul>
+
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000052B0000017B70B2923F.png" width="662" height="190" style="display:inline-block; margin:4px;width:17.503cm;height:5.015cm;" class="odt-zoomable" data-zoom-src="images/100000000000052B0000017B70B2923F.png" /></td></tr></table>
+
+<ol>
   <li>In [1], we add a dependency to the project,
   </li>
-  <li>in [2], we select the Maven project for the [business] layer. In [3], we specify its type, and in [4] its scope. The scope is set to `<i>provided</i>` to indicate that it will be supplied to the web module by its runtime environment. We will see shortly that it will be supplied by an enterprise application,
+  <li>in [2], we select the Maven project for the [métier] layer. In [3], specify its type, and in [4], specify its scope. The scope is <i>set </i>to <i>`provided</i>` to indicate that it will <i>be provided </i>to the web module by its runtime environment. We will see shortly that it will be provided by an enterprise application,
   </li>
   <li>in [5], the dependency has been added.
   </li>
-</ul>
+</ol>
 
 <p>The [pom.xml] file is then as follows:</p>
-<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">boolean</span><span style="color:#000000"> </span><span style="color:#0000c0">viewInfosIsRendered</span><span style="color:#000000">;</span></span></span>
-</code></pre></div>
-
-<p>We can now remove the packages from the [business] layer that are no longer needed:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000018E000000F41C10AFE4.png" width="279" height="171" style="display:inline-block; margin:4px;width:7.37cm;height:4.517cm;" class="odt-zoomable" data-zoom-src="images/100000000000018E000000F41C10AFE4.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
-
-<p>We also need to modify the code in the [Form.java] bean:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
@@ -852,7 +846,10 @@
 <span class="odt-code-line"><span class="odt-code-line-content"> <span style="color:#000000"> </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>Line 7 instantiated the simulated [business] layer. Now it must reference the actual [business] layer. The previous code becomes the following:</p>
+<p>We can now remove the packages from the [métier] layer that are no longer needed:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000018E000000F41C10AFE4.png" width="279" height="171" style="display:inline-block; margin:4px;width:7.37cm;height:4.517cm;" class="odt-zoomable" data-zoom-src="images/100000000000018E000000F41C10AFE4.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<p>We also need to modify the code for the [Form.java] bean:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-csharp">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> Form {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -866,72 +863,8 @@
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 </code></pre></div>
 
-<p>Line 7: The <strong>@EJB</strong> annotation instructs the servlet container—which will execute the web layer—to inject the EJB that implements the local interface <em>IMetierLocal</em> into the <em>business</em> field on line 8.</p>
-<p>Why the local interface <em>IMetierLocal</em> rather than the <em>IMetierRemote</em> interface? Because the web layer and the EJB layer run in the same JVM:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000046700000199934CF91D.png" width="564" height="205" style="display:inline-block; margin:4px;width:14.91cm;height:5.412cm;" class="odt-zoomable" data-zoom-src="images/100000000000046700000199934CF91D.png" /></td></tr></table>
-
-<p>Classes in the servlet container can directly reference EJB classes in the EJB container.</p>
-<p>That&#x27;s it. Our web layer is ready. The transformation was simple because we had taken care to simulate the [business] layer using a class that conformed to the <em>IMetierLocal</em> interface implemented by the actual [business] layer.</p>
-<p><a id="refheading87573112820228"></a></p>
-<h2 id="113-the-netbeans-project-for-the-enterprise-application">11.3. <span style="color: #4f81bd">The NetBeans project for the enterprise application</span></h2>
-<p>An enterprise application allows for the simultaneous deployment of an application’s [web] layer and EJB layer on an application server, in the servlet container and the EJB container, respectively.</p>
-<p>We proceed as follows:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004F6000001564302CEC5.png" width="635" height="171" style="display:inline-block; margin:4px;width:16.801cm;height:4.524cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F6000001564302CEC5.png" /></td></tr></table>
-
-<ul>
-  <li>in [1], we create a new project
-  </li>
-  <li>in [2], select the [Maven] category
-  </li>
-  <li>in [3], select the [Enterprise Application] type
-  </li>
-  <li>in [4], we name the project
-  </li>
-</ul>
-
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002D100000108978FF955.png" width="361" height="132" style="display:inline-block; margin:4px;width:9.539cm;height:3.493cm;" class="odt-zoomable" data-zoom-src="images/10000000000002D100000108978FF955.png" /></td></tr></table>
-
-<ul>
-  <li>In [5], we select Java EE 6
-  </li>
-  <li>In [6], an enterprise project can include up to two types of modules:
-    <ul>
-      <li>an <b>EJB</b> module
-      </li>
-      <li>a <b>web</b> module
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<p>When creating the enterprise project, you can request the creation of these two modules, which will be empty initially. An enterprise project is used solely for deploying the modules it contains. Beyond that, it is an empty shell. Here, we want to deploy:</p>
-<ul>
-  <li>an existing web module [mv-pam-jsf2-alone]. Therefore, there is no need to create a new web module.
-  </li>
-  <li>an existing EJB module [mv-pam-ejb-metier-dao-eclipselink]. Here, too, there is no need to create a new one.
-  </li>
-</ul>
-
-<p>In [6], we create an enterprise project without modules. We will add its <strong>web</strong> and <strong>EJB</strong> modules later.</p>
-<ul>
-  <li>In [7], two Maven projects have been created. The enterprise project is the one with the <b>.ear</b> suffix. The other project is a parent Maven project of the former. We will not be concerned with it.
-  </li>
-</ul>
-
-<p>We add the web module and the EJB module to the enterprise project:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000052B00000170E5139430.png" width="662" height="184" style="display:inline-block; margin:4px;width:17.503cm;height:4.868cm;" class="odt-zoomable" data-zoom-src="images/100000000000052B00000170E5139430.png" /></td></tr></table>
-
-<ul>
-  <li>In [1], add a new dependency,
-  </li>
-  <li>in [2], add the EJB project [mv-pam-ejb-metier-dao-eclipselink]. Note its <i>EJB</i> type,
-  </li>
-  <li>in [3], add the web project [mv-pam-jsf2-ejb]. Note its type is <i>war</i>.
-  </li>
-</ul>
-
-<p>The [pom.xml] file is then as follows:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
+<p>Line 7 instantiated the simulated [métier] layer. Now it must reference the actual [métier] layer. The previous code becomes the following:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-csharp">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> Form {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> Form() {</span></span></span>
@@ -944,27 +877,109 @@
 <span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">// form fields</span></span></span>
 </code></pre></div>
 
-<p>Before deploying the enterprise application [mv-pam-webapp-ear], ensure that the MySQL database [dbpam_eclipselink] exists and is populated. Once this is done, we can deploy the enterprise application [mv-pam-webapp-ear]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000323000001764610323D.png" width="402" height="187" style="display:inline-block; margin:4px;width:10.624cm;height:4.948cm;" class="odt-zoomable" data-zoom-src="images/1000000000000323000001764610323D.png" /></td></tr></table>
+<p>Line 7: The <strong>@EJB</strong> annotation instructs the servlet container—which will execute the web layer—to inject into the <em>business</em> field of layer 8, the EJB class, which implements the local interface <em>IMetierLocal</em>.</p>
+<p>Why the local interface <em>IMetierLocal</em> rather than the interface <em>IMetierRemote</em>? Because the web layer and the EJB layer run in the same JVM:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000046700000199934CF91D.png" width="564" height="205" style="display:inline-block; margin:4px;width:14.91cm;height:5.412cm;" class="odt-zoomable" data-zoom-src="images/100000000000046700000199934CF91D.png" /></td></tr></table>
 
-<ul>
-  <li>in [1], the enterprise application is deployed
+<p>The classes in the servlet container can directly reference the EJB classes in the EJB container.</p>
+<p>That’s it. Our web layer is ready. The transformation was simple because we had taken care to simulate the [métier] layer with a class that adhered to the <em>IMetierLocal</em> interface implemented by the actual [métier] layer.</p>
+<p><span id="refheading87573112820228" name="refheading87573112820228" class="odt-bookmark-anchor"></span></p>
+<h2 id="113-the-netbeans-project-of-the-enterprise-application">11.3. <span style="color: #4f81bd">The Netbeans project of the enterprise application</span></h2>
+<p>An enterprise application allows for the simultaneous deployment on an application server of an application’s [web] layer and EJB layer, in the servlet container and the EJB container, respectively.</p>
+<p>We proceed as follows:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004F6000001564302CEC5.png" width="635" height="171" style="display:inline-block; margin:4px;width:16.801cm;height:4.524cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F6000001564302CEC5.png" /></td></tr></table>
+
+<ol>
+  <li>In [1], create a new project
   </li>
-  <li>in [2], the enterprise application [mv-pam-webapp-ear] has been successfully deployed.
+  <li>In [2], select the category [Maven]
+  </li>
+  <li>In [3], select the type [Enterprise Application]
+  </li>
+  <li>In [4], name the project
+  </li>
+</ol>
+
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002D100000108978FF955.png" width="361" height="132" style="display:inline-block; margin:4px;width:9.539cm;height:3.493cm;" class="odt-zoomable" data-zoom-src="images/10000000000002D100000108978FF955.png" /></td></tr></table>
+
+<ol>
+  <li>In [5], we select Java EE 6
+  </li>
+  <li>In [6], a business project can include up to two types of modules:
+    <ul>
+      <li>a <b>EJB</b> module
+      </li>
+      <li>a <b>web</b> module
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<p>You can request the creation of these two modules at the same time as the enterprise project; they will be empty initially. An enterprise project serves only to deploy the modules that are part of it. Beyond that, it is an empty shell. Here, we want to deploy:</p>
+<ol>
+  <li>an existing web module [mv-pam-jsf2-alone]. Therefore, there is no need to create a new web module.
+  </li>
+  <li>an existing EJB module, [mv-pam-ejb-metier-dao-eclipselink]. Here, too, there is no need to create a new one.
+  </li>
+</ol>
+
+<p>In [6], we create an enterprise project without modules. We will add its <strong>web</strong> and <strong>EJB</strong> modules later.</p>
+<ul>
+  <li>In [7], two Maven projects have been created. The enterprise project is the one with the <b>.ear</b> suffix. The other project is a parent Maven project of the previous one. We will not be concerned with it.
   </li>
 </ul>
 
-<p><span style="color: #000000">In the browser, the following page appears:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003AC000001AA2F665EA3.png" width="470" height="213" style="display:inline-block; margin:4px;width:12.435cm;height:5.636cm;" class="odt-zoomable" data-zoom-src="images/10000000000003AC000001AA2F665EA3.png" /></td></tr></table>
+<p>We add the web module and the EJB module to the enterprise project:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000052B00000170E5139430.png" width="662" height="184" style="display:inline-block; margin:4px;width:17.503cm;height:4.868cm;" class="odt-zoomable" data-zoom-src="images/100000000000052B00000170E5139430.png" /></td></tr></table>
+
+<ol>
+  <li>in [1], added a new dependency,
+  </li>
+  <li>in [2], addition of the project EJB [mv-pam-ejb-metier-dao-eclipselink]. Note its <i>EJB</i> type,
+  </li>
+  <li>In [3], add the web project [mv-pam-jsf2-ejb]. Note that its type is <i>war</i>.
+  </li>
+</ol>
+
+<p>The [pom.xml] file is then as follows:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">${project.groupId}</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">mv-pam-ejb-metier-dao-eclipselink</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">${project.version}</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">type</span><span style="color:#008080">&gt;</span><span style="color:#000000">ejb</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">type</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">${project.groupId}</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">mv-pam-jsf2-ejb</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">${project.version}</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">type</span><span style="color:#008080">&gt;</span><span style="color:#000000">war</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">type</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
+</code></pre></div>
+
+<p>Before deploying the [mv-pam-webapp-ear] enterprise application, ensure that the MySQL and [dbpam_eclipselink] databases exist and are populated. Once this is done, we can deploy the [mv-pam-webapp-ear] enterprise application:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000323000001764610323D.png" width="402" height="187" style="display:inline-block; margin:4px;width:10.624cm;height:4.948cm;" class="odt-zoomable" data-zoom-src="images/1000000000000323000001764610323D.png" /></td></tr></table>
 
 <ul>
-  <li><span style="color: #000000">in [1], the requested URL</span>
+  <li>In [1], the enterprise application is deployed
   </li>
-  <li><span style="color: #000000">in [2], the list of employees has been populated with the entries from the [Employees] table in the </span><i><span style="color: #000000">dbpam</span></i><span style="color: #000000"> database.</span>
+  <li>In [2], the enterprise application [mv-pam-webapp-ear] has been successfully deployed.
   </li>
 </ul>
 
-<p><span style="color: #000000">The reader is invited to repeat the tests from Web Version 1. Here is an example of the execution:</span></p>
+<p><span style="color: #000000">In the browser, the following page is displayed:</span></p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003AC000001AA2F665EA3.png" width="470" height="213" style="display:inline-block; margin:4px;width:12.435cm;height:5.636cm;" class="odt-zoomable" data-zoom-src="images/10000000000003AC000001AA2F665EA3.png" /></td></tr></table>
+
+<ol>
+  <li><span style="color: #000000">In [1], the requested URL</span>
+  </li>
+  <li><span style="color: #000000">In [2], the list of employees has been populated with the entries from table [Employes] in the </span><i><span style="color: #000000">dbpam</span></i><span style="color: #000000"> database.</span>
+  </li>
+</ol>
+
+<p><span style="color: #000000">The reader is invited to repeat the tests for version Web #1. Here is an example of the execution:</span></p>
 <p><img src="images/100000000000024A00000388510FAAC0.png" width="410" height="633" style="width:10.85cm;height:16.738cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000024A00000388510FAAC0.png" /></p>
 
 
